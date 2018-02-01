@@ -1,0 +1,9 @@
+
+<nav>
+  <ul>
+    {% for node in site.collections %}
+        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+        <li class="p-{{id}}"><a href="{{site.baseurl}}/{{node.menuloc}}.html">{{node.display}}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

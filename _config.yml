@@ -7,7 +7,7 @@ safe: false
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
-permalink: /:title ## disables post output
+permalink: /blog/:title ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
@@ -15,25 +15,44 @@ markdown: kramdown
 
 ### content configuration ###
 title:       "Sarah M Brown, PhD"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "Sarah M Bown"
+keywords:    "machine learning, research, stem diversity"
+description: "Sarah M Brown, PhD "
 source_link: "https://github.com/brownsarahm/brownsarahm.github.io"
-favicon:     "img/favicon.ico"
+favicon:     "favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
 ##google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
 
 
 ### template colors, used site-wide via css ###
 colors:
-  black: '#2e2e2e'
-  white: '#fffdda'  # cream
-# white:     '#f8f8f8'
-  blue:      '#49a7e9'
+  black: '#2A312E'
+#  white: '#fffdda'  # cream
+  white:     '#D9E2E5'
+  gray:      '#556F7A'
+  magenta:   '#92374D'
+  blue: '#8EB1C7'
+  # unused
+
   green:     '#9bcf2f'
   purple:    '#c869bf'
   orange:    '#fab125'
-  turquoise: '#0fbfcf'
+
+
 
 kramdown:
   auto_ids:  false
 
+collections:
+  academic:
+    output: true
+    permalink: /:name
+    display: home
+    menuloc: index
+  blog:
+    output: true
+    permalink: /:collection/:name
+    display: blog
+    menuloc: blog
+  category:
+    output: true
+    permalink: /:collection/:name/

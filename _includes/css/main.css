@@ -15,7 +15,7 @@ html { box-sizing: border-box; }
 {% endfor %}
 
 /* ----- per-post colors! ----- */
-{% for node in site.posts %}
+{% for node in site.collections %}
   {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
   {% capture bg %}{% if site.colors[node.bg] %}{{ site.colors[node.bg] }}{% else %}{{ node.bg }}{% endif %}{% endcapture %}
   {% capture fg %}{% if site.colors[node.color] %}{{ site.colors[node.color] }}{% else %}{{ node.color }}{% endif %}{% endcapture %}
@@ -24,6 +24,18 @@ html { box-sizing: border-box; }
   #{{id}} a { color: {{ fg }}; }
   #{{id}} .sectiondivider { color: {{ bg }}; }
 {% endfor %}
+
+
+{% for node in site.academic %}
+  {% capture id %}{{ node.title | remove:'/' | downcase }}{% endcapture %}
+  {% capture bg %}{% if site.colors[node.bg] %}{{ site.colors[node.bg] }}{% else %}{{ node.bg }}{% endif %}{% endcapture %}
+  {% capture fg %}{% if site.colors[node.color] %}{{ site.colors[node.color] }}{% else %}{{ node.color }}{% endif %}{% endcapture %}
+  nav .p-{{id}} { border-color: {{ bg }}; }
+  #{{id}} { background-color: {{ bg }} !important; color: {{ fg }}; }
+  #{{id}} a { color: {{ fg }}; }
+  #{{id}} .sectiondivider { color: {{ bg }}; }
+{% endfor %}
+
 
 
 /* ----- code, syntax highlighting, etc ----- */
@@ -113,6 +125,8 @@ hr {
 
 {% assign navborder = 3 %}
 {% assign navborder_active = 6 %}
+{% assign sideborder = 10 %}
+{% assign sideborder_active = 13 %}
 
 nav {
   font-size:15px;
@@ -146,7 +160,7 @@ nav ul li {
   margin:0;
 }
 
-nav ul li a, nav ul li a:visited {
+nav ul li a, nav ul li a:visited{
   display:block;
   color:#fff;
   text-decoration:none;
@@ -154,12 +168,69 @@ nav ul li a, nav ul li a:visited {
   opacity:.75;
 }
 
-nav ul li a:hover {
+nav ul li a:hover{
   opacity:1
 }
-nav ul li:hover, nav ul li.active {
+nav ul li:hover, nav ul li.active{
   border-top-width: {{navborder_active}}px;
   padding-top: 0;
+}
+
+/* -------------sidebar ---------------------*/
+
+
+.sidebar-sticky {
+  position: fixed;
+  z-index: 3000;
+  right:  1rem;
+  bottom: 50%;
+  left:   0px;
+}
+
+
+.sidebar {
+  padding: 1rem 0rem;
+  margin: 0px;
+  color: #2e2e2e;
+  width: 200px;
+  font-size:15px;
+}
+
+.sidebar ul {
+  list-style:none;
+  text-align:left;
+  padding:0;
+  margin:0;
+}
+
+.sidebar ul li {
+  display:inline-block;
+  border-left:{{navborder}}px solid;
+  padding-left: {{sideborder}}px;
+  *display:inline;
+  zoom:1;
+  line-height:normal;
+  letter-spacing:normal;
+  text-transform:uppercase;
+  min-width:110px;
+  line-height:60px;
+  margin:0;
+}
+
+.sidebar ul li a, .sidebar ul li a:visited{
+  display:block;
+  color:#333;
+  text-decoration:none;
+  font-weight:600;
+  opacity:.75;
+}
+
+.sidebar ul li a:hover{
+  opacity:1
+}
+.sidebar ul li:hover, .sidebar ul li.active{
+  border-left-width: {{navborder_active}}px;
+  padding-left: {{sideborder}}px;
 }
 
 
