@@ -18,7 +18,7 @@ title:       "Sarah M Brown, PhD"
 keywords:    "machine learning, research, stem diversity"
 description: "Sarah M Brown, PhD "
 source_link: "https://github.com/brownsarahm/brownsarahm.github.io"
-favicon:     "favicon.ico"
+favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
 ##google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
 
@@ -43,6 +43,15 @@ kramdown:
   auto_ids:  false
 
 collections:
+  research:
+    output: true
+    permalink: /projects/:name
+  service:
+    output: true
+    permalink: /:collection/:name
+  teaching:
+    output: true
+    permalink: /:collection/:name
   academic:
     output: true
     permalink: /:name

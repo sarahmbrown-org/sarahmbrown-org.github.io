@@ -1,6 +1,8 @@
-<nav><ul>
+<nav>
+  <ul>
   {% for node in site.category %}
       {% capture id %}{{ node.title | remove:'/' | downcase }}{% endcapture %}
       <li class="p-{{id}}"><a href="{{node.url}}">{{node.title}}</a></li>
   {% endfor %}
-</ul></nav>
+  </ul>
+</nav>
