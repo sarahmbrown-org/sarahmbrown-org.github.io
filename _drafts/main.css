@@ -252,6 +252,9 @@ section:first-of-type {
     padding-top: 140px;
 }
 
+article{
+  width: 67ex;
+}
 
 footer {
   padding: 8px 0;

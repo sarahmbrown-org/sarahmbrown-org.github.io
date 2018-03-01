@@ -2,8 +2,10 @@
 <nav>
   <ul>
     {% for node in site.collections %}
+    {% if {{node.display}} %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-        <li class="p-{{id}}"><a href="{{site.baseurl}}/{{node.menuloc}}.html">{{node.display}}</a></li>
+        <li class="p-{{id}}"><a href="{{site.baseurl}}/{{node.menuloc}}">{{node.display}}</a></li>
+        {% endif %}
     {% endfor %}
   </ul>
 </nav>

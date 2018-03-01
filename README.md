@@ -6,6 +6,12 @@ Behind the scenes
 
 -------------------------
 
+## plan for categories
+
+switch to csv of categories w/ script to generate *.md
+
+
+
 ## Usage
 
 Alright, you've got a clean copy and are ready to push some schmancy pages for the world to ogle at.

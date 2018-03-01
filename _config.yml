@@ -28,9 +28,10 @@ colors:
   black: '#2A312E'
 #  white: '#fffdda'  # cream
   white:     '#D9E2E5'
-  gray:      '#556F7A'
+  gray:      '#2A312E'
   magenta:   '#92374D'
   blue: '#8EB1C7'
+  teal: '#556F7A'
   # unused
 
   green:     '#9bcf2f'
@@ -43,20 +44,26 @@ kramdown:
   auto_ids:  false
 
 collections:
-  research:
-    output: true
-    permalink: /projects/:name
-  service:
-    output: true
-    permalink: /:collection/:name
-  teaching:
-    output: true
-    permalink: /:collection/:name
   academic:
     output: true
     permalink: /:name
     display: home
-    menuloc: index
+    menuloc: ''
+  research:
+    output: true
+    display: research
+    menuloc: research
+    permalink: /:collection/:name
+  service:
+    output: true
+    display: service
+    menuloc: service
+    permalink: /:collection/:name
+  teaching:
+    output: true
+    display: teaching
+    menuloc: teaching
+    permalink: /:collection/:name
   blog:
     output: true
     permalink: /:collection/:name

@@ -1,0 +1,97 @@
+---
+---
+@import url('https://fonts.googleapis.com/css?family=Farsan|Open+Sans');
+
+
+$text-font: 'Open+Sans', sans-serif;
+$titling-font:  'Farsan', cursive;
+$hebrew-font: "Mazon Hebrew", serif;
+$heading-sizes: 60px, 45px, 30px, 26px, 22px, 18px;
+$text-size: #{18px/24px}; // interpolation prevents division.
+$mobile-heading-sizes: 55px, 48px, 28px, 24px, 20px, 18px;
+$sm-width: 50%;
+$sm-pad: 10%;
+$sm-width-mobile: 70%;
+$sm-pad-mobile: 5%;
+$lg-width: 80%;
+
+
+
+$navborder: 0px;
+$mobile-navborder: $navborder / 2;
+
+
+{% for color in site.colors %}
+    ${{ color[0] }}: {{ color[1] }};
+{% endfor %}
+
+
+{% capture ids %}
+{% for post in site.posts reversed %}
+    {{ post.id | remove: '/' | downcase }},
+{% endfor %}
+{% endcapture %}
+$posts: ( {{ ids }} );
+
+
+{% capture colors %}
+{% for post in site.posts reversed %}
+    (
+    {% for color in post.colors %}
+        ${{ color }},
+    {% endfor %}
+    ),
+{% endfor %}
+{% endcapture %}
+$colorlists: ( {{ colors }} );
+// $colorlists: (($white, $brown, $red), ($green, $white, $brown), ($brown, $red, $white));
+
+$color1: $gray;
+$color1text: $white;
+$color2: $teal;
+$color2text: $white;
+$color3: $blue;
+$color3text: $white;
+
+
+@mixin post-colors($post-name, $bgcolor, $fgcolor, $headcolor) {
+    nav .p-#{$post-name} { border-color: $bgcolor; }
+    ##{$post-name} {
+        background-color: $bgcolor !important; color: $fgcolor;
+        a { color: $fgcolor; }
+        .sectiondivider, .icon-title { color: $bgcolor; }
+        h1, h3, h4, h5, h6 { color: $headcolor; }
+        h2 {color:$bgcolor}
+        hr { border-color: $fgcolor; }
+        blockquote { border-left-color: $headcolor; }
+    }
+}
+
+
+
+
+
+@function make-fontsize-list($sizehints) {
+    @if type-of($sizehints) == number {
+        // ideally, make some sort of educated guess.
+    } @else if type-of($sizehints) == list and length($sizehints) == 6 {
+        @return $sizehints;
+    }
+}
+
+
+@mixin fontsizes($sizehints) {
+    @each $i, $size in zip((1, 2, 3, 4, 5, 6), make-fontsize-list($sizehints)) {
+        h#{$i} {
+            font-size: $size;
+            line-height: 115%;
+        }
+    }
+}
+
+/*
+letter-spacing: $size/100*8; // i.e., 8%*/
+
+@import "reset";
+@import "grid";
+@import "styles";

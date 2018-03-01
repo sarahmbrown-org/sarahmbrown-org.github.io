@@ -1,18 +1,20 @@
 ---
 layout: main
+permalink: blog/
 ---
 
-<main>
-    {% for post in site.posts %}
-        {% capture id %}{{ post.slug | remove:'/' | downcase }}{% endcapture %}
+{% for post in site.posts %}
+  {% capture id %}{{ post.slug | remove:'/' | downcase }}{% endcapture %}
 
-        {{post.output}}
-        <div id="{{id}}" class="section p-{{id}}">
 
-          <div class="container {{ page.style }}">
-            {{ post.content }}
-          </div>
+  <section class="" >
+      <h2> {{post.title}} </h2>
+       <article class="{% cycle 'accent1', 'accent2', 'accent3'  %}">
 
-        </div>
-    {% endfor %}
-</main>
+
+      {{ post.content }}
+      </article>
+
+
+  </section>
+{% endfor %}

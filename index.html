@@ -2,13 +2,14 @@
 layout: main
 ---
 
-    {% for acad in site.academic %}
-        {% capture id %}{{ acad.title | remove:'/' | downcase }}{% endcapture %}
-        <div id="{{id}}" class="section p-{{id}}">
+{% for acad in site.academic %}
 
-          <div class="container {{ acad.style }}">
-            {{ acad.content }}
-          </div>
+    <section class="front" >
+        <h1> {{acad.display}} </h1>
 
-        </div>
-    {% endfor %}
+        <article class="{% cycle 'accent1', 'accent2', 'accent3'  %}">
+           {{ acad.content| markdownify}}
+        </article>
+
+    </section>
+{% endfor %}
