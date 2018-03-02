@@ -1,5 +1,5 @@
 ---
-layout: jetpack-portfolio
+layout: speaking
 title: Using Twitter to Empower Minority Women in STEM
 date: 2015-02-04 00:59:02.000000000 -08:00
 type: jetpack-portfolio

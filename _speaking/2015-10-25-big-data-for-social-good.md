@@ -1,5 +1,5 @@
 ---
-layout: jetpack-portfolio
+layout: speaking
 title: Big Data for Social Good
 date: 2015-10-25 21:48:35.000000000 -07:00
 type: jetpack-portfolio
