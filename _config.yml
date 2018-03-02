@@ -62,7 +62,7 @@ collections:
   speaking:
     output: true
     display: speaking
-    menuloc: talks
+    menuloc: speaking
     permalink: /:collection/:name
   teaching:
     output: true

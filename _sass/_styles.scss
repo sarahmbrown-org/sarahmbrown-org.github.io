@@ -287,7 +287,7 @@ nav {
             zoom: 1;
             line-height: normal;
             line-height: 50px;
-            margin: 0px 50px;
+            margin: 0px 30px;
             a, a:visited {
                 display: block;
                 color: $black;
@@ -325,12 +325,15 @@ section { // defines a block of post material (including the divider).
     position: relative;
     width: 80%;
     h1:first-of-type {//title
-      font-size: 150%;
+      font-size: 200%;
       position:absolute;
-      top: -50px;
+      top: -30px;
       left:0px;
       text-transform: capitalize;
       //text-shadow: 1px 1px 0px $white;
+      a {
+        color:inherit;
+      }
     }
     i{
       color:black;
@@ -340,6 +343,7 @@ section { // defines a block of post material (including the divider).
       // @include push(1); // for some reason push needs to come after column
       // @include pull(1);
       padding: 50px 50px;
+      display: inline-block;
       margin: auto;
       word-wrap: break-word;
       width: 77ex;
@@ -352,6 +356,10 @@ section { // defines a block of post material (including the divider).
       p{
         width: 67ex;
       }
+      hr{
+        border: 0px;
+        padding: 10px;
+      }
     }
     aside { // wraps marginalia.
       // @include column(1);
@@ -359,15 +367,7 @@ section { // defines a block of post material (including the divider).
       display: inline-block;
       top: auto;
       right: 0;
-      p, p:first-of-type {
-          font-style: italic;
-          font-size: 80%;
-          text-align: left;
-      }
-      p:first-of-type { margin-top: 0; }
-      // This needs to be thought out better.
-      // &.hebrew { left: 0; text-align: right; }
-      }
+  }
 }
 
 .accent1 {
@@ -413,11 +413,15 @@ section { // defines a block of post material (including the divider).
 }
 
 .front {
-    margin:auto;
+    margin: 50px auto;
     width: 90%;
     article{
       width: 80%;
       padding: 100px 50px 50px 100px;
+      display : inline-block;
+    }
+    aside{
+      width: 20%;
       display : inline-block;
     }
     h1:first-of-type {//title
@@ -437,7 +441,10 @@ section { // defines a block of post material (including the divider).
 }
 
 .extra{
-  display:inline;
+  padding: 50px 0px;
+  display:inline-block;
+  width: 20%;
+  text-transform: uppercase;
 }
 
 
@@ -526,12 +533,16 @@ footer {
 @media only screen and (max-width: 767px) {
     section {
         article {
-            @include column(5);
-            aside {
-                position: relative;
-                @include column(5);
-                p, p:first-of-type { text-align: justify; }
-            }
+          width:100%;
+          display:block;
+          padding: 10px;
+        }
+
+        aside {
+            position: relative;
+            display:block;
+            width: inherit;
+            p, p:first-of-type { text-align: justify; }
         }
     }
 }
@@ -539,13 +550,13 @@ footer {
 
 @media screen and (max-width: 720px) {
     @include fontsizes($mobile-heading-sizes);
-    hr { margin-top: 30px; margin-bottom: 30px; @include column(5); }
+    hr {
+      margin-top: 30px;
+       margin-bottom: 30px; }
     blockquote { @include push(1); @include pull(0);
         border-left: 0 none;
         p { margin-left: 0; padding-left: 0 }
     }
-
-
     $mobile-navborder-active: 2 * $mobile-navborder;
     nav {
       z-index: 1000;
@@ -564,22 +575,28 @@ footer {
     .target{
       height: 120px;
     }
-    .landing {
-        padding-top: 0px !important;
-        // background-size: cover;
-        // height:100%;
-        article {
-            @include pull(1);
-            @include column(4);
-        }
-    }
 
     section{
       margin-top:80px;
-      padding: 25px 25px;
-      h2:first-of-type {//title
+      padding: 25px 0px;
+      h1:first-of-type {//title
         position:absolute;
         top: -35px;
+      }
+      article {
+        width:100% !important;
+        display:block;
+        padding: 100px 5% !important;
+        text-align: justify;
+        p{
+          width: inherit !important;
+        }
+      }
+      aside {
+          position: relative;
+          display:block;
+          width: inherit;
+          p, p:first-of-type { text-align: justify; }
       }
     }
     .right {

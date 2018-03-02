@@ -3,7 +3,7 @@ display: " Service"
 itemdata: service
 type: academic
 layout: academic
-pageloc: 4
+pageloc: 5
 ---
 
-service descriptions
+I am involved with various organizations, primarily serving various STEM diversity efforts. 
