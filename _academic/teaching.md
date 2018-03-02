@@ -3,9 +3,10 @@ display: Teaching
 itemdata: teaching
 layout: academic
 fa-icon: university
+pageloc: 3
 ---
 
 
-My teaching headerter content
+My teaching
 
 I aim to....

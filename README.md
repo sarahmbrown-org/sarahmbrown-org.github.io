@@ -1,46 +1,61 @@
-Behind the scenes
-===============================
-
-- Based this on the [SinglePaged theme](https://github.com/t413/SinglePaged),  see it live at [t413.com/SinglePaged](http://t413.com/SinglePaged)
-- Combined with ideas on [multiblog sites](https://www.garron.me/en/blog/multi-blog-site-jekyll.html)
-
--------------------------
-
-## plan for categories
-
-switch to csv of categories w/ script to generate *.md
 
 
+# How this works
 
-## Usage
+regular jekyll setup stuff
 
-Alright, you've got a clean copy and are ready to push some schmancy pages for the world to ogle at.
+# Content Organization
 
-- Edit `_config.yml` to change your title, keywords, and description.
-- Create a new file in `_posts/` called `2014-01-01-intro.md`
-  Edit it, and add:
+This site uses jekyll collections to organize most of the content
 
-~~~
-  ---
-  title: "home"
-  bg: white     #defined in _config.yml, can use html color like '#010101'
-  color: black  #text color
-  style: center
-  ---
+## academic
+This collection is the sections on the front page /index. There should be any header sections for the main page here as well as markdown files for the content collections as described in the next section.
 
-  # Example headline!
-  and so on..
-~~~
+Minimal yml example:
+```yml
+---
+title: "home"
+display: "About"
+news: news
+---
+```
 
-- Create a second post called `2014-01-02-art.md` with an divider image this time:
+if the `news` key is used, then this section will have a News list on the front page, taking the 3 most recent posts with this category and listing the `headline` if available or title with a link to the post main page.  The keyword News will link to the category page for that type of news
 
-~~~
-  ---
-  title: "Art"
-  bg: turquoise  #defined in _config.yml, can use html color like '#0fbfcf'
-  color: white   #text color
-  fa-icon: paint-brush
-  ---
+## content collections
 
-  #### A new section- oh the humanity!
-~~~
+These are the sections `research`, `teaching`, `service`
+each of these (and any additional similar sections) should have a directory named accordingly and be added to the `_config.yml`
+
+To generate the `/collection/ ` page there needs to be an index.md with the following yaml
+
+For each of these collections, there needs to be a markdown in `/_academic`. This markdown will also be displayed at the top of the `/collection/ ` page.
+ - `itemdata` must match the collection name exactly this will add the more info bar at the bottom of the section on the front page and fill this markdown content to the collection page
+ -
+
+minimal yaml front matter like:
+
+```yml
+---
+display: Teaching
+itemdata: teaching
+layout: academic
+---
+```
+
+## category
+
+This is a processing collection to generate pages of blog content these are just yaml header matter to make the `_layout/category.html` page works
+
+`type:blog` is required on all pages that need to use the blognav
+
+```yml
+---
+layout: category
+title: As it should display
+category: "Grad School"
+type: blog
+---
+```
+
+# Notes

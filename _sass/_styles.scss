@@ -8,7 +8,9 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-
+main.blog{
+  margin-left:200px;
+}
 
 
 html { box-sizing: border-box; }
@@ -301,6 +303,20 @@ nav {
     }
 }
 
+.sidenav{
+  position:fixed;
+  top: 100px;
+  left: 10px;
+  width:200px;
+  ul{
+    text-align: left;
+    li{
+      display:block;
+      margin: 0px;
+    }
+  }
+}
+
 
 section { // defines a block of post material (including the divider).
     @include row();
@@ -319,76 +335,76 @@ section { // defines a block of post material (including the divider).
     i{
       color:black;
     }
-    .accent1 {
-        background-color: $color1 !important; color: $color1text;
-        a { color: $color1text; }
-        h2, h3, h4, h5, h6 { color: $color1text; }
-        h1 {color:$color1}
-        hr { border-color: $color1text; }
-        blockquote { border-left-color: $color1text; }
-    }
-    .accent3 {
-        background-color: $color3 !important; color: $color3text;
-        a { color: $color3text; }
-        h2, h3, h4, h5, h6 { color: $color3text; }
-        h1 {color:$color3}
-        hr { border-color: $color3text; }
-        blockquote { border-left-color: $color3text; }
-    }
-    .accent2 {
-        background-color: $color2 !important; color: $color2text;
-        a { color: $color2text; }
-        h2, h3, h4, h5, h6 { color: $color2text; }
-        h1 {color:$color2}
-        hr { border-color: $color2text; }
-        blockquote { border-left-color: $color2text; }
-    }
     article { // wraps the actual content.
-        // @include column(3);
-        // @include push(1); // for some reason push needs to come after column
-        // @include pull(1);
-        padding: 50px 50px;
-        margin: auto;
-        word-wrap: break-word;
-        width: 77ex;
-        h1, h2, h3, h4, h5, h6 {
-            margin-top: 20px;
-            text-align: center;
-            padding: 0 0px;
-            text-transform: uppercase;
-        }
-        p{
-          width: 67ex;
-        }
-
-        aside { // wraps marginalia.
-            @include column(1);
-            position: absolute;
-            display: inline;
-            top: auto;
-            right: 0;
-            p, p:first-of-type {
-                font-style: italic;
-                font-size: 80%;
-                text-align: left;
-            }
-            p:first-of-type { margin-top: 0; }
-            // This needs to be thought out better.
-            // &.hebrew { left: 0; text-align: right; }
-        }
+      // @include column(3);
+      // @include push(1); // for some reason push needs to come after column
+      // @include pull(1);
+      padding: 50px 50px;
+      margin: auto;
+      word-wrap: break-word;
+      width: 77ex;
+      h1, h2, h3, h4, h5, h6 {
+          margin-top: 20px;
+          text-align: center;
+          padding: 0 0px;
+          text-transform: uppercase;
+      }
+      p{
+        width: 67ex;
+      }
     }
+    aside { // wraps marginalia.
+      // @include column(1);
+      position: absolute;
+      display: inline-block;
+      top: auto;
+      right: 0;
+      p, p:first-of-type {
+          font-style: italic;
+          font-size: 80%;
+          text-align: left;
+      }
+      p:first-of-type { margin-top: 0; }
+      // This needs to be thought out better.
+      // &.hebrew { left: 0; text-align: right; }
+      }
+}
+
+.accent1 {
+    background-color: $color1 !important; color: $color1text;
+    a { color: $color1text; }
+    h2, h3, h4, h5, h6 { color: $color1text; }
+    h1 {color:$color1}
+    hr { border-color: $color1text; }
+    blockquote { border-left-color: $color1text; }
+}
+.accent3 {
+    background-color: $color3 !important; color: $color3text;
+    a { color: $color3text; }
+    h2, h3, h4, h5, h6 { color: $color3text; }
+    h1 {color:$color3}
+    hr { border-color: $color3text; }
+    blockquote { border-left-color: $color3text; }
+}
+.accent2 {
+    background-color: $color2 !important; color: $color2text;
+    a { color: $color2text; }
+    h2, h3, h4, h5, h6 { color: $color2text; }
+    h1 {color:$color2}
+    hr { border-color: $color2text; }
+    blockquote { border-left-color: $color2text; }
 }
 
 .wide {
     margin:auto;
-    width: 100%;
+    width: 90%;
     article{
       width: 90%;
     }
     h1:first-of-type {//title
       font-size: 300%;
       position:absolute;
-      top: -50px;
+      top: 0px;
       left:20%;
       text-transform: capitalize;
       //text-shadow: 1px 1px 0px $white;
@@ -398,25 +414,32 @@ section { // defines a block of post material (including the divider).
 
 .front {
     margin:auto;
-    width: 100%;
+    width: 90%;
     article{
       width: 80%;
-      height: 500px;
+      padding: 100px 50px 50px 100px;
+      display : inline-block;
     }
     h1:first-of-type {//title
       font-size: 300%;
       color: #FFF;
       position:absolute;
-      top: 50%;
-      left: 100px;
+      top: 50px;
       text-transform: uppercase;
       text-align:center;
-      -webkit-transform: rotate(-90deg);
-    -moz-transform:    rotate(-90deg);
-    -ms-transform:     rotate(-90deg);
-    -o-transform:      rotate(-90deg);
+      transform: rotate(-30deg);
+      transform-origin: 50% 50%;
+    //   -webkit-transform: rotate(-90deg);
+    // -moz-transform:    rotate(-90deg);
+    // -ms-transform:     rotate(-90deg);
+    // -o-transform:      rotate(-90deg);
     }
 }
+
+.extra{
+  display:inline;
+}
+
 
 
 .right {

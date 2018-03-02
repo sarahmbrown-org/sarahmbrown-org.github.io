@@ -59,6 +59,11 @@ collections:
     display: service
     menuloc: service
     permalink: /:collection/:name
+  speaking:
+    output: true
+    display: speaking
+    menuloc: talks
+    permalink: /:collection/:name
   teaching:
     output: true
     display: teaching

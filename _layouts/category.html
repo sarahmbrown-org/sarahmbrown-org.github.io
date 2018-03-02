@@ -3,22 +3,30 @@ layout: main
 ---
 
 
-    {% include blognav.html %}
+{% include blognav.html %}
+
+<section class="wide">
 
 
+<h1> {{page.Title}} </h1>
+<article>
+{{top.content| markdownify}}
+</article>
+</section>
 
-    {% for post in site.categories[page.category] %}
+{% for post in site.categories[page.category] %}
 
-    {{post.output}}
+    <section class="" >
+      <h1><a href="{{ post.url | absolute_url }}">
+        {{ post.title }}
+      </a></h1>
+         <article class="{% cycle 'accent1', 'accent2', 'accent3'  %}">
 
-    <div id="{{id}}" class="section p-{{id}}">
+           <p>{{ post.excerpt }}</p>
+        </article>
 
-      <div class="container {{ page.style }}">
-        <h2><a href="{{ post.url | absolute_url }}">
-          {{ post.title }}
-        </a></h2>
-        <p>{{ post.excerpt }}</p>
-      </div>
 
-    </div>
-    {% endfor %}
+    </section>
+
+
+{% endfor %}

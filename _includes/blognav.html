@@ -1,4 +1,5 @@
-<nav>
+<nav class='sidenav'>
+  <h1>Categories</h1>
   <ul>
   {% for node in site.category %}
       {% capture id %}{{ node.title | remove:'/' | downcase }}{% endcapture %}

@@ -13,8 +13,8 @@ display: page.dispay
 </section>
 
 
-{% assign currcoll = site.documents | where:"collection", page.collection %}
-{% for item in currcoll %}
+{% assign currcoll = site.documents | where:"collection", page.collection | sort: 'date' %}
+{% for item in currcoll reversed%}
     {% capture id %}{{ item.id }}{% endcapture %}
     {% unless id contains "index" %}
     <section class="{% cycle 'left', 'right' %} " >

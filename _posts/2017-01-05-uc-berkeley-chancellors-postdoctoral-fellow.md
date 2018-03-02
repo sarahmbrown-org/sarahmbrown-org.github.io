@@ -7,6 +7,7 @@ published: true
 status: publish
 categories:
 - Grad School
+- news
 tags: []
 meta:
   bitly_url: http://2smb.link/2iNUwtF
@@ -24,4 +25,4 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
-I've completed my PhD and joined UC Berkeley as a [](http://diversity.berkeley.edu/programs-services/postdoctoral/about-us/current-fellows">Chancellor's Postdoctoral Fellow.
+I've completed my PhD and joined UC Berkeley as a [Chancellor's Postdoctoral Fellow](http://diversity.berkeley.edu/programs-services/postdoctoral/about-us/current-fellows).

@@ -1,9 +1,11 @@
 ---
 layout: main
 permalink: blog/
+type: blog
 ---
+{% include blognav.html %}
 
-{% for post in site.posts %}
+{% for post in site.posts limit:10 %}
   {% capture id %}{{ post.slug | remove:'/' | downcase }}{% endcapture %}
 
 
