@@ -12,13 +12,8 @@ layout: main
     {{ acad.content| markdownify}}
 
   </article>
-  <aside class="extra">
-    {% if acad.itemdata %}
-      <p >
-       <a href="{{site.baseurl}}{{acad.id}}">all</a>
-      </p>
-    {% endif %}
 
+  <aside class="extra">
     {% if acad.news %}
     <h3><a href="{{site.baseurl}}/category/{{acad.news}}">News:</a></h3>
     <ul>
@@ -33,6 +28,16 @@ layout: main
       {%endfor%}
     </ul>
     {% endif %}
+
+
+
+    {% if acad.itemdata %}
+      <p >
+       <a href="{{site.baseurl}}{{acad.id}}">all</a>
+      </p>
+    {% endif %}
+
+
   </aside>
 
 

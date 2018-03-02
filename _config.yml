@@ -15,6 +15,7 @@ markdown: kramdown
 
 ### content configuration ###
 title:       "Sarah M Brown, PhD"
+name:        "Sarah M Brown"
 keywords:    "machine learning, research, stem diversity"
 description: "Sarah M Brown, PhD "
 source_link: "https://github.com/brownsarahm/brownsarahm.github.io"
@@ -22,6 +23,10 @@ favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
 ##google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
 
+social:
+  github: brownsarahm
+  twitter: brownsarahm
+  linkedin: smariebrown
 
 ### template colors, used site-wide via css ###
 colors:
@@ -38,14 +43,17 @@ colors:
   purple:    '#c869bf'
   orange:    '#fab125'
 
+include:
+  - _pages
+  - files
 
 
 kramdown:
   auto_ids:  false
 
 collections:
+  bio:
   academic:
-    output: true
     permalink: /:name
     display: home
     menuloc: ''
@@ -53,22 +61,22 @@ collections:
     output: true
     display: research
     menuloc: research
-    permalink: /:collection/:name
+    permalink: /:collection/:title
   service:
     output: true
     display: service
     menuloc: service
-    permalink: /:collection/:name
+    permalink: /:collection/:title
   speaking:
     output: true
     display: speaking
     menuloc: speaking
-    permalink: /:collection/:name
+    permalink: /:collection/:title
   teaching:
     output: true
     display: teaching
     menuloc: teaching
-    permalink: /:collection/:name
+    permalink: /:collection/:year/:title
   blog:
     output: true
     permalink: /:collection/:name

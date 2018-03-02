@@ -47,7 +47,7 @@ layout: academic
 
 This is a processing collection to generate pages of blog content these are just yaml header matter to make the `_layout/category.html` page works
 
-`type:blog` is required on all pages that need to use the blognav
+`type:blog` is required on all pages that need to use the blognav, this is flagged in `_layout/main` to change the width of the `<main>` section by setting the class
 
 ```yml
 ---
@@ -59,3 +59,5 @@ type: blog
 ```
 
 # Notes
+
+To do: add feature for pinned project/item to index.html, use collectionmain as reference to get it. Allow pinned collection item to be set by id in `_academic` post and then pulled into page, no requirement to edit actual item to pin/unpin a post.  Bonus, allow pinning on collection main for sort.

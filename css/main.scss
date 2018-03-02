@@ -1,11 +1,14 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css?family=Farsan|Open+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Farsan|Open+Sans|Cutive+Mono');
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css);
 
 $text-font: 'Open+Sans', sans-serif;
 $titling-font:  'Farsan', cursive;
+$mono-font: 'Cutive Mono', monospace;
 $hebrew-font: "Mazon Hebrew", serif;
+$name-size: 150px;
+$name-size-mobile: 60px;
 $heading-sizes: 60px, 45px, 30px, 26px, 22px, 18px;
 $text-size: #{18px/24px}; // interpolation prevents division.
 $mobile-heading-sizes: 55px, 48px, 28px, 24px, 20px, 18px;
@@ -14,6 +17,8 @@ $sm-pad: 10%;
 $sm-width-mobile: 80%;
 $sm-pad-mobile: 5%;
 $lg-width: 80%;
+$nav-height:  50px;
+$par-line-length: 77ex;
 
 
 

@@ -1,0 +1,38 @@
+---
+layout: main
+social: social
+permalink: bio/
+---
+
+<!--- display full text of featured bio(s) --->
+{% for bioseg in site.bio reversed %}
+  {%if bioseg.feature %}
+  <section>
+  <article>
+  {{bioseg.content}}
+  <hr >
+  <p class="article-foot">
+    about:
+  </p>
+    <p class="article-foot">
+      {{ bioseg.content | number_of_words }} words
+    </p>
+    <p class="article-foot">
+      {{ bioseg.date | date: "%-m/%-d/%y"}}
+    </p>
+  </article>
+  </section>
+  {% endif %}
+{%endfor %}
+
+<!--- display info only and allow expansion of others --->
+<section>
+  <h1>Additional Bios</h1>
+  {% for bioseg in site.bio reversed %}
+    {%unless bioseg.feature %}
+      <article>
+      {{bioseg.output}}
+      </article>
+    {% endunless %}
+  {%endfor %}
+</section>

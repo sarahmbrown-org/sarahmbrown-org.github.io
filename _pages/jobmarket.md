@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: simple
 title: "job market"
-
+type: plain
+permalink: jobmarket/
 ---
 
 
@@ -12,6 +13,4 @@ title: "job market"
 
 [teaching statement](files/teaching.pdg)
 
-[cv](sarah_m_brown.pdf)
-
-# Supplemental
+[cv](files/cv_sarahmbrown.pdf)

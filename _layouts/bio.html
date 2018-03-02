@@ -1,0 +1,16 @@
+<!---
+This formats the bio excerpts on the bio page
+--->
+
+<details>
+<summary>
+  <span class="fa-stack">
+    <span class="fa fa-minus-square-o fa-stack-1x" id="open">  </span>
+    <i class="fa fa-plus-square-o fa-stack-1x" id="closed"></i>
+  </span>
+  {{ page.content | number_of_words }} words, {{page.note}}, {{ page.date | date: "%-m/%-d/%y"}}
+
+</summary>
+  {{ page.content | markdownify }}
+
+</details>

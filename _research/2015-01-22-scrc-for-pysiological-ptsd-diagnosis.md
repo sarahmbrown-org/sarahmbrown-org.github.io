@@ -1,5 +1,5 @@
 ---
-layout: jetpack-portfolio
+layout: simple
 title: A Sparse Combined Regression-Classification Formulation for Learning a Physiological
   Alternative to Clinical Post-Traumatic Stress Disorder Scores
 date: 2015-01-22 15:29:44.000000000 -08:00

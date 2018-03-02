@@ -12,6 +12,17 @@ main.blog{
   margin-left:200px;
 }
 
+main.plain{
+  width: 80ex;
+  margin: auto;
+  p {
+    display: inline-block;
+    min-width: 30%;
+  }
+}
+
+
+
 
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
@@ -23,7 +34,46 @@ img {
     vertical-align: middle;
 }
 
+header{
+  margin:auto;
+  width: fit-content;
+  text-align: center;
+  h1{
+    padding-top: 1.5ex;
+    font-size: $name-size;
+    text-transform: capitalize;
+    line-height: 80% !important;
+  }
+  a{
+    color: inherit;
+  }
+  p {
+    display: inline-block;
+    width: 25%;
+    padding-bottom: 1ex;
+  }
+  i{
+    margin-right: .5ex;
+  }
+}
 
+
+
+// header.plain::after{
+//   width:fit-content;
+// }
+
+p.article-foot{
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 90%;
+}
+
+p.article-foot:first-of-type{
+  text-align: left;
+}
 
 #token{display:none}
 
@@ -33,7 +83,13 @@ img {
 }
 
 
-@import url(//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css);
+/* expansions for biography minis */
+summary::-webkit-details-marker {
+  display: none
+}
+details[open] i{
+  display:none;
+}
 
 input{
   font-family: $text-font;
@@ -209,10 +265,9 @@ hr {
     border-style: solid;
     clear: both;
     height: 0;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    @include push(1);
-    @include pull(1);
+    margin-top: 5px;
+    margin-bottom: 5px;
+
 }
 
 
@@ -249,16 +304,15 @@ li { margin-left: inherit; padding-left: 5px; }
 
 .landing {
     padding-top: -0vh !important;
-    background: white;
-    background-size: cover;
-    min-height: 100vh;
-    top: -50px;
-    article {
-        @include column(2);
-        @include push(3);
-        color: $magenta;
-    }
-    z-index: 110;
+    //background: white;
+    //background-size: cover;
+    //min-height: 100vh;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
@@ -286,7 +340,7 @@ nav {
             padding: $navborder 0;
             zoom: 1;
             line-height: normal;
-            line-height: 50px;
+            line-height: $nav-height;
             margin: 0px 30px;
             a, a:visited {
                 display: block;
@@ -304,10 +358,11 @@ nav {
 }
 
 .sidenav{
-  position:fixed;
-  top: 100px;
-  left: 10px;
+  position:sticky;
+  top:  $nav-height + $navborder-active;
+  left: 0px;
   width:200px;
+  float: left;
   ul{
     text-align: left;
     li{
@@ -338,35 +393,41 @@ section { // defines a block of post material (including the divider).
     i{
       color:black;
     }
-    article { // wraps the actual content.
-      // @include column(3);
-      // @include push(1); // for some reason push needs to come after column
-      // @include pull(1);
-      padding: 50px 50px;
-      display: inline-block;
-      margin: auto;
-      word-wrap: break-word;
-      width: 77ex;
-      h1, h2, h3, h4, h5, h6 {
-          margin-top: 20px;
-          text-align: center;
-          padding: 0 0px;
-          text-transform: uppercase;
-      }
-      p{
-        width: 67ex;
-      }
-      hr{
-        border: 0px;
-        padding: 10px;
-      }
-    }
+
     aside { // wraps marginalia.
       // @include column(1);
       position: absolute;
       display: inline-block;
       top: auto;
       right: 0;
+  }
+}
+
+article { // wraps the actual content.
+  // @include column(3);
+  // @include push(1); // for some reason push needs to come after column
+  // @include pull(1);
+  padding: 50px 50px;
+  display: inline-block;
+  margin: auto;
+  word-wrap: break-word;
+  width: $par-line-length;
+  h1, h2, h3, h4, h5, h6 {
+      margin-top: 20px;
+      text-align: center;
+      padding: 0 0px;
+      text-transform: uppercase;
+  }
+  p{
+    width: 67ex;
+  }
+  hr{
+    border: 0px;
+    padding: 10px;
+  }
+  a{
+    color:inherit;
+    font-weight: bold;
   }
 }
 
@@ -468,9 +529,24 @@ section:first-of-type {
   margin-top:30px;
 }
 
+section.titled{
+  min-width: fit-content !important;
+  h1{
+    position: sticky;
+    top: $nav-height+ $navborder-active;
+    background-color: $white;
+  }
+}
+
+
 footer {
+    width: 100%;
+    position: absolute;
+    bottom:0px;
+    text-align: center;
     min-height: 0;
     background-image:none;
+    font-family: $mono-font;
     p, p:first-of-type {
         font-size: 14px;
         margin: 0;
@@ -481,7 +557,7 @@ footer {
         color: $black;
     }
     h3{
-        padding: 100px 0;
+      padding: 100px 0;
       text-align: center;
       color: black;
     }
@@ -545,6 +621,13 @@ footer {
             p, p:first-of-type { text-align: justify; }
         }
     }
+    header{
+      margin:auto;
+      width: fit-content;
+      h1{
+        font-size: $name-size-mobile;
+      }
+    }
 }
 
 
@@ -607,5 +690,13 @@ footer {
     .left {
         margin-left: $sm-pad-mobile;
         width: $sm-width-mobile;
+    }
+
+    header{
+      margin:auto;
+      width: fit-content;
+      h1{
+        font-size: $name-size-mobile;
+      }
     }
 }
