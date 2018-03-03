@@ -58,6 +58,16 @@ type: blog
 ---
 ```
 
+# Layouts
+
+## default
+shell ofthe page, outer content, mostly meta
+
+## main
+
+generally always used
+
+
 # Notes
 
 To do: add feature for pinned project/item to index.html, use collectionmain as reference to get it. Allow pinned collection item to be set by id in `_academic` post and then pulled into page, no requirement to edit actual item to pin/unpin a post.  Bonus, allow pinning on collection main for sort.
