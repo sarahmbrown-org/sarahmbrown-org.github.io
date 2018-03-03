@@ -7,6 +7,3 @@ pageloc: 3
 ---
 
 
-My teaching
-
-I aim to....

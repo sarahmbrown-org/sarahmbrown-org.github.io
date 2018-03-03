@@ -7,4 +7,5 @@ layout: academic
 pageloc: 5
 ---
 
-I am involved with various organizations, primarily serving various STEM diversity efforts.
+
+Outside of the lab, I am a passionate advocate for underrepresented STEM engagement at all levels. Currently I am treasurer of Women In Machine Learning, Inc. As a student, I held a variety of leadership positions in the National Society of Black Engineers at both the local and national levels including National Academic Excellence Chair.

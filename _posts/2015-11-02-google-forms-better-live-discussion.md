@@ -8,7 +8,7 @@ status: publish
 categories:
 - Conferences
 - Grad School
-- Teaching
+- teaching
 tags:
 - bdsg
 - dssi

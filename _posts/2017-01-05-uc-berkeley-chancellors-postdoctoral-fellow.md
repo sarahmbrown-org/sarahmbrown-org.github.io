@@ -1,6 +1,7 @@
 ---
 layout: post
 title: UC Berkeley Chancellor's Postdoctoral Fellow
+headline: I've graduated and moved to Berkeley
 date: 2017-01-05 19:48:20.000000000 -08:00
 type: post
 published: true
