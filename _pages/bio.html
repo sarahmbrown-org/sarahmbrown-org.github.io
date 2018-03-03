@@ -8,19 +8,14 @@ permalink: bio/
 {% for bioseg in site.bio reversed %}
   {%if bioseg.feature %}
   <section>
-  <article>
-  {{bioseg.content}}
-  <hr >
-  <p class="article-foot">
-    about:
-  </p>
-    <p class="article-foot">
-      {{ bioseg.content | number_of_words }} words
-    </p>
-    <p class="article-foot">
-      {{ bioseg.date | date: "%-m/%-d/%y"}}
-    </p>
-  </article>
+    <article>
+    {{bioseg.content}}
+    </article>
+    <aside class="article-foot">
+      <p> about:  </p>
+      <p > {{ bioseg.content | number_of_words }} words </p>
+      <p >  {{ bioseg.date | date: "%-m/%-d/%y"}} </p>
+    </aside>
   </section>
   {% endif %}
 {%endfor %}

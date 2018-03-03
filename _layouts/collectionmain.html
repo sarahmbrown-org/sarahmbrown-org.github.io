@@ -16,26 +16,28 @@ layout: main
 {% for item in currcoll reversed%}
     {% capture id %}{{ item.id }}{% endcapture %}
     {% unless id contains "index" %}
-    <section class="{% cycle 'left', 'right' %} " >
+    <section class="{% cycle 'accent1', 'accent2', 'accent3'  %} titled " >
         <h1> {{item.title}} </h1>
-         <article class="{% cycle 'accent1', 'accent2', 'accent3'  %}">
+         <article class="">
 
-        {{ item.content }}
+        {{ item.content | markdownify}}
 
+        </article>
         {% if item.gallery%}
-        <hr>
+        <aside class="gallery">
+
         <!---<p class="article-foot"> Items</p>--->
           {% for content in item.gallery%}
-            <p class="gallery">
+            <p>
               <a href="{{content[1]}}">
               <i class="fa-{{content[0]}}"></i>
             </a>
             </p>
 
           {%endfor %}
-
+        </aside>
         {% endif %}
-        </article>
+
 
 
     </section>

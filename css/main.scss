@@ -25,31 +25,11 @@ $par-line-length: 77ex;
 $navborder: 0px;
 $mobile-navborder: $navborder / 2;
 
-
+/* make color variables from info in _config.yml*/
 {% for color in site.colors %}
     ${{ color[0] }}: {{ color[1] }};
 {% endfor %}
 
-
-{% capture ids %}
-{% for post in site.posts reversed %}
-    {{ post.id | remove: '/' | downcase }},
-{% endfor %}
-{% endcapture %}
-$posts: ( {{ ids }} );
-
-
-{% capture colors %}
-{% for post in site.posts reversed %}
-    (
-    {% for color in post.colors %}
-        ${{ color }},
-    {% endfor %}
-    ),
-{% endfor %}
-{% endcapture %}
-$colorlists: ( {{ colors }} );
-// $colorlists: (($white, $brown, $red), ($green, $white, $brown), ($brown, $red, $white));
 
 $color1: $gray;
 $color1text: $white;
@@ -58,22 +38,30 @@ $color2text: $white;
 $color3: $blue;
 $color3text: $white;
 
-
-@mixin post-colors($post-name, $bgcolor, $fgcolor, $headcolor) {
-    nav .p-#{$post-name} { border-color: $bgcolor; }
-    ##{$post-name} {
-        background-color: $bgcolor !important; color: $fgcolor;
-        a { color: $fgcolor; }
-        .sectiondivider, .icon-title { color: $bgcolor; }
-        h1, h3, h4, h5, h6 { color: $headcolor; }
-        h2 {color:$bgcolor}
-        hr { border-color: $fgcolor; }
-        blockquote { border-left-color: $headcolor; }
-    }
+.accent1 {
+    background-color: $color1 !important; color: $color1text;
+    a { color: $color1text; }
+    h2, h3, h4, h5, h6 { color: $color1text; }
+    h1 {color:$color1}
+    hr { border-color: $color1text; }
+    blockquote { border-left-color: $color1text; }
 }
-
-
-
+.accent3 {
+    background-color: $color3 !important; color: $color3text;
+    a { color: $color3text; }
+    h2, h3, h4, h5, h6 { color: $color3text; }
+    h1 {color:$color3}
+    hr { border-color: $color3text; }
+    blockquote { border-left-color: $color3text; }
+}
+.accent2 {
+    background-color: $color2 !important; color: $color2text;
+    a { color: $color2text; }
+    h2, h3, h4, h5, h6 { color: $color2text; }
+    h1 {color:$color2}
+    hr { border-color: $color2text; }
+    blockquote { border-left-color: $color2text; }
+}
 
 
 @function make-fontsize-list($sizehints) {
@@ -97,6 +85,9 @@ $color3text: $white;
 /*
 letter-spacing: $size/100*8; // i.e., 8%*/
 
-@import "reset";
-@import "grid";
+//@import "reset";
+//@import "grid";
+
+@import "menus";
 @import "styles";
+@import "forms";

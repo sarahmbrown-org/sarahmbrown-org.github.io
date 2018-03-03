@@ -21,6 +21,18 @@ main.plain{
   }
 }
 
+.landing {
+    padding-top: -0vh !important;
+    //background: white;
+    //background-size: cover;
+    //min-height: 100vh;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 
 
@@ -39,7 +51,8 @@ header{
   width: fit-content;
   text-align: center;
   h1{
-    padding-top: 1.5ex;
+    padding-top: 1ex;
+    margin: 0 auto;
     font-size: $name-size;
     text-transform: capitalize;
     line-height: 80% !important;
@@ -63,24 +76,39 @@ header{
 //   width:fit-content;
 // }
 
-p.article-foot{
-  display: inline-block;
-  width: 24%;
-  text-align: center;
+/* ----------- aside types ----------*/
+.extra{
+  padding: 50px 0px;
+  display:inline-block;
+  width: 20%;
   text-transform: uppercase;
-  font-size: 90%;
+  li{
+    padding:10px;
+  }
 }
 
-p.gallery{
-  display: inline-block;
-  width: 75px;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 50px;
-  padding-top: 30px;
-  i {
-      color: inherit;
+.article-foot{
+  p{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 90%;
   }
+}
+
+.gallery{
+  p{
+    display: inline-block;
+    width: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 30px;
+    i {
+        color: inherit;
+    }
+}
 }
 
 p.article-top{
@@ -115,83 +143,6 @@ summary::-webkit-details-marker {
 details[open] i{
   display:none;
 }
-
-input{
-  font-family: $text-font;
-  font-size: 25px;
-  text-transform: uppercase;
-  text-align:center;
-}
-
-input[type=radio]{
-  display: none;
-  margin: 55px;
-  border: 0;
-  overflow: hidden;
-  padding: 0;
-  // position: absolute;
-}
-
-// input[type=radio] ~  div{
-//   background-color: white;
-//   display: inline-block;
-//   width: 40px;
-//   height: 40px;
-// }
-
-input[type=radio] ~ label:before {
-  font-family: arial;
-  font-size: 45px;
-  width: 55px;
-  content: "\2586"; /* Radio Unchecked */
-    color: $white;
-
-}
-
-input[type=radio]:checked ~ label:before{
-  font-family: FontAwesome;
-  font-size: 35px;
-  content: "\f00c"; /* Radio Checked */
-  color: $white;
-  background-color: $blue;
-}
-
-
-.radio{
-  width:auto;
-  height: 75px;
-  margin: 20px 30px;
-}
-
-.radio label{
-  font-size: 40px;
-  line-height: 110%;
-  color: $white;
-  font-family: $titling-font;
-  text-transform: lowercase;
-  position: absolute;
-}
-
-input[type=submit] {
-  font-family: FontAwesome;
-  font-size: 60px;
-  transform: rotate(30deg) ;
-  content: "\f1d8";
-  color:$white;
-  background-color: $blue;
-  border:none;
-  margin:auto;
-}
-
-fieldset{
-  text-align:center;
-}
-fieldset.alignleft{
-  text-align:left;
-  width: 100%;
-  margin-left: 0px;
-}
-
 
 .inlineblock {
     display: -moz-inline-stack;
@@ -253,17 +204,6 @@ p { margin: 0 0 20px 0;
     img { margin: 0; }
 }
 
-/*
-h1, h2 {
-  font-family: 'Allura', cursive;
-}
-
-h3, h4, p{
-font-family: 'Montserrat', sans-serif;
-
-}*/
-
-
 a, a:visited { text-decoration: none; outline: 0; }
 a:hover, a:focus { }
 p a, p a:visited { line-height: inherit; }
@@ -319,113 +259,93 @@ ul { list-style: circle outside;
 li { margin-left: inherit; padding-left: 5px; }
 
 
-// @each $title, $colors in zip($posts, $colorlists) {
-//     @include post-colors($title, nth($colors, 1),
-//                                  nth($colors, 2),
-//                                  nth($colors, 3))
-// }
 
-
-.landing {
-    padding-top: -0vh !important;
-    //background: white;
-    //background-size: cover;
-    //min-height: 100vh;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-
-
-
-$navborder-active: 2 * $navborder;
-
-
-nav {
-    font-size: 15px;
-    font-weight: bold;
-    width: 100%;
-    position: sticky;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    background: $white;
-    text-transform: uppercase;
-    ul {
-        list-style: none;
-        text-align: center;
-        padding: 0;
-        margin: 0;
-        li {
-            display: inline-block;
-            border-top: $navborder solid;
-            padding: $navborder 0;
-            zoom: 1;
-            line-height: normal;
-            line-height: $nav-height;
-            margin: 0px 30px;
-            a, a:visited {
-                display: block;
-                color: $black;
-                text-decoration: none;
-            }
-            a:hover { opacity: 1;
-                      text-shadow: 0 0 4px transparentize($white, 0.8)}
-        }
-        li:hover, li.active {
-            border-top-width: $navborder-active;
-            padding-top: 0;
-        }
-    }
-}
-
-.sidenav{
-  position:sticky;
-  top:  $nav-height + $navborder-active;
-  left: 0px;
-  width:200px;
-  float: left;
-  ul{
-    text-align: left;
-    li{
-      display:block;
-      margin: 0px;
-    }
-  }
-}
 
 
 section { // defines a block of post material (including the divider).
-    @include row();
     margin: auto;
     margin-top: 125px;
     position: relative;
     width: 80%;
     h1:first-of-type {//title
       font-size: 200%;
-      position:absolute;
-      top: -30px;
-      left:0px;
-      text-transform: capitalize;
+      text-transform: uppercase;
       //text-shadow: 1px 1px 0px $white;
       a {
         color:inherit;
       }
     }
-    i{
-      color:black;
-    }
-
     aside { // wraps marginalia.
       // @include column(1);
-      position: absolute;
       display: inline-block;
-      top: auto;
-      right: 0;
+      padding: 50px;
+  }
+}
+
+/* Special sections */
+.wide { // top of cllection & category pages
+    margin:auto;
+    width: 90%;
+    article{
+      margin:auto !important;
+      width: 100%;
+      p{
+        width: inherit;
+        text-align: justify;
+
+      }
+    }
+}
+
+.front { // for index page
+    margin: 50px auto;
+    width: 90%;
+    article{
+      padding: 100px 50px 50px 100px;
+      display : inline-block;
+    }
+    aside{
+      width: 20%;
+      display : inline-block;
+    }
+    h1:first-of-type {// rotated title
+      font-size: 300%;
+      color: #FFF;
+      position:absolute;
+      left: 10px;
+      text-transform: uppercase;
+      text-align:center;
+      transform: rotate(-90deg) translateX(-90%);
+      transform-origin: 0% 0%;
+    //   -webkit-transform: rotate(-90deg);
+    // -moz-transform:    rotate(-90deg);
+    // -ms-transform:     rotate(-90deg);
+    // -o-transform:      rotate(-90deg);
+    }
+}
+
+
+.right {
+    margin-right:$sm-pad;
+}
+
+.left {
+    margin-left: $sm-pad;
+}
+
+/* First section gets padding from menus */
+// section:first-of-type {
+//   margin-top:30px;
+// }
+
+/* Sticky titles for blog post sections*/
+section.titled{
+  h1{
+    position: sticky;
+    top: $nav-height + $navborder-active;
+    background-color: $white;
+    text-transform: capitalize;
+    z-index: 1000;
   }
 }
 
@@ -434,18 +354,17 @@ article { // wraps the actual content.
   // @include push(1); // for some reason push needs to come after column
   // @include pull(1);
   padding: 50px 50px;
-  display: inline-block;
   margin: auto;
   word-wrap: break-word;
   width: $par-line-length;
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6 { // for markdown generated titles
       margin-top: 20px;
       text-align: center;
       padding: 0 0px;
       text-transform: uppercase;
   }
   p{
-    width: 67ex;
+    text-align: justify;
   }
   hr{
     border: 0px;
@@ -457,121 +376,6 @@ article { // wraps the actual content.
   }
 }
 
-.accent1 {
-    background-color: $color1 !important; color: $color1text;
-    a { color: $color1text; }
-    h2, h3, h4, h5, h6 { color: $color1text; }
-    h1 {color:$color1}
-    hr { border-color: $color1text; }
-    blockquote { border-left-color: $color1text; }
-}
-.accent3 {
-    background-color: $color3 !important; color: $color3text;
-    a { color: $color3text; }
-    h2, h3, h4, h5, h6 { color: $color3text; }
-    h1 {color:$color3}
-    hr { border-color: $color3text; }
-    blockquote { border-left-color: $color3text; }
-}
-.accent2 {
-    background-color: $color2 !important; color: $color2text;
-    a { color: $color2text; }
-    h2, h3, h4, h5, h6 { color: $color2text; }
-    h1 {color:$color2}
-    hr { border-color: $color2text; }
-    blockquote { border-left-color: $color2text; }
-}
-
-.wide {
-    margin:auto;
-    width: 90%;
-    article{
-        margin:auto !important;
-      width: 90%;
-      p{
-        width: inherit;
-        text-align: justify;
-
-      }
-    }
-    h1:first-of-type {//title
-      font-size: 300%;
-      position:absolute;
-      top: 0px;
-      left:20%;
-      text-transform: capitalize;
-      //text-shadow: 1px 1px 0px $white;
-      text-align:center;
-    }
-}
-
-.front {
-    margin: 50px auto;
-    width: 90%;
-    article{
-      width: 80%;
-      padding: 100px 50px 50px 100px;
-      display : inline-block;
-    }
-    aside{
-      width: 20%;
-      display : inline-block;
-    }
-    h1:first-of-type {//title
-      font-size: 300%;
-      color: #FFF;
-      position:absolute;
-      top: 50px;
-      text-transform: uppercase;
-      text-align:center;
-      transform: rotate(-30deg);
-      transform-origin: 50% 50%;
-    //   -webkit-transform: rotate(-90deg);
-    // -moz-transform:    rotate(-90deg);
-    // -ms-transform:     rotate(-90deg);
-    // -o-transform:      rotate(-90deg);
-    }
-}
-
-.extra{
-  padding: 50px 0px;
-  display:inline-block;
-  width: 20%;
-  text-transform: uppercase;
-  li{
-    padding:10px;
-  }
-}
-
-
-
-.right {
-    margin-right:$sm-pad;
-    width: $sm-width;
-}
-
-
-h2.right{
-  text-align:right;
-}
-
-.left {
-    margin-left: $sm-pad;
-    width: $sm-width;
-}
-
-section:first-of-type {
-  margin-top:30px;
-}
-
-section.titled{
-  min-width: fit-content !important;
-  h1{
-    position: sticky;
-    top: $nav-height+ $navborder-active;
-    background-color: $white;
-  }
-}
 
 
 footer {
@@ -630,7 +434,7 @@ footer {
     hr {
       margin-top: 30px;
        margin-bottom: 30px; }
-    blockquote { @include push(1); @include pull(0);
+    blockquote {
         border-left: 0 none;
         p { margin-left: 0; padding-left: 0 }
     }
