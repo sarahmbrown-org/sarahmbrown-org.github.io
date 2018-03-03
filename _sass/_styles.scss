@@ -71,8 +71,21 @@ p.article-foot{
   font-size: 90%;
 }
 
-p.article-foot:first-of-type{
-  text-align: left;
+p.article-top{
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 90%;
+}
+
+// p.article-foot:first-of-type{
+//   text-align: left;
+// }
+
+.pagenote{
+  text-transform: lowercase;
+  font-style: italic;
 }
 
 #token{display:none}
@@ -226,7 +239,6 @@ small { font-size: 80%; }
 p { margin: 0 0 20px 0;
     //padding: 0 10px;
     img { margin: 0; }
-
 }
 
 /*
@@ -314,6 +326,8 @@ li { margin-left: inherit; padding-left: 5px; }
     top: 50%;
     transform: translateY(-50%);
 }
+
+
 
 
 $navborder-active: 2 * $navborder;
@@ -506,6 +520,9 @@ article { // wraps the actual content.
   display:inline-block;
   width: 20%;
   text-transform: uppercase;
+  li{
+    padding:10px;
+  }
 }
 
 

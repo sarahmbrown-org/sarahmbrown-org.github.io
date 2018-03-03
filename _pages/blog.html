@@ -13,7 +13,17 @@ social: social
   <section class="titled" >
       <h1> {{post.title}} </h1>
        <article class="{% cycle 'accent1', 'accent2', 'accent3'  %}">
-
+         <p class="article-top"></p>
+         <p class="article-top">
+           {% unless post.categories contains "news" %}
+            <a href="{{ post.url | absolute_url }}">
+            page view
+            </a>
+            {% endunless %}
+         </p>
+         <p class="article-top">
+           {{ post.date | date: "%-m/%-d/%y"}}
+         </p>
 
       {{ post.content }}
       </article>
