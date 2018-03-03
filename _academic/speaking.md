@@ -2,7 +2,7 @@
 display: "Talks"
 itemdata: speaking
 type: academic
-layout: academic
+layout: collectionmain
 pageloc: 4
 ---
 

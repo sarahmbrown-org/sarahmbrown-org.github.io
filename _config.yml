@@ -54,7 +54,8 @@ kramdown:
 collections:
   bio:
   academic:
-    permalink: /:name
+    output: true
+    permalink: /:name/
     display: home
     menuloc: ''
   research:

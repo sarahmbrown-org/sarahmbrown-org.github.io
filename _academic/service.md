@@ -3,7 +3,7 @@ title: Service
 display: Service
 itemdata: service
 type: academic
-layout: academic
+layout: collectionmain
 pageloc: 5
 ---
 

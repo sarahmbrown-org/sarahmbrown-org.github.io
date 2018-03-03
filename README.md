@@ -24,23 +24,27 @@ if the `news` key is used, then this section will have a News list on the front 
 
 ## content collections
 
-These are the sections `research`, `teaching`, `service`
+These are the sections [`research`, `teaching`, `service`]
 each of these (and any additional similar sections) should have a directory named accordingly and be added to the `_config.yml`
 
-To generate the `/collection/ ` page there needs to be an index.md with the following yaml
+To generate the `/collection/ ` page there needs to be a file somewhere with the following yaml excerpt (mostly in `_academic`)
 
-For each of these collections, there needs to be a markdown in `/_academic`. This markdown will also be displayed at the top of the `/collection/ ` page.
+```yml
+itemdata: <related collection name>
+layout: collectionmain
+```
+
+For each of these collections, there needs to be a markdown in `/_academic`. This text from there will also be displayed at the top of the `/collection/ ` page.
  - `itemdata` must match the collection name exactly this will add the more info bar at the bottom of the section on the front page and fill this markdown content to the collection page
  -
 
-minimal yaml front matter like:
+### gallery
+
+on these pages, add the following to yaml to add link/gallery content at the bottom.  The icon names are without the `fa` prefix, but include any font-awesome icon
 
 ```yml
----
-display: Teaching
-itemdata: teaching
-layout: academic
----
+gallery:
+  - [<icon name>, link content]
 ```
 
 ## category
@@ -57,6 +61,7 @@ category: "Grad School"
 type: blog
 ---
 ```
+
 
 # Layouts
 

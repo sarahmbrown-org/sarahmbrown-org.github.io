@@ -1,9 +1,7 @@
 ---
 display: Teaching
 itemdata: teaching
-layout: academic
+layout: collectionmain
 fa-icon: university
 pageloc: 3
 ---
-
-

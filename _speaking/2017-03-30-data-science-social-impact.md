@@ -33,7 +33,7 @@ Slides will be posted shortly after the workshop
  - [Responses](http://drsmb.co/hard)
 
 
-## Sources cited in the worksho
+## Sources cited in the workshop
   - [Remediating lead in Chicago ](http://drsmb.co/chilead)
   - [Improving police interactions in Nashville](http://drsmb.co/mnpd)
   - [3rd Grade warning system in Tulsa](http://drsmb.co/tulsa3)

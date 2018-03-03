@@ -5,14 +5,14 @@ layout: main
 <section class="wide">
 
 {% assign top = site.academic | where:"itemdata", page.itemdata | first %}
-<h1> {{top.display}} </h1>
+
 <article>
 {{top.content| markdownify}}
 </article>
 </section>
 
 
-{% assign currcoll = site.documents | where:"collection", page.collection | sort: 'date' %}
+{% assign currcoll = site.documents | where:"collection", page.itemdata | sort: 'date' %}
 {% for item in currcoll reversed%}
     {% capture id %}{{ item.id }}{% endcapture %}
     {% unless id contains "index" %}
@@ -21,6 +21,20 @@ layout: main
          <article class="{% cycle 'accent1', 'accent2', 'accent3'  %}">
 
         {{ item.content }}
+
+        {% if item.gallery%}
+        <hr>
+        <!---<p class="article-foot"> Items</p>--->
+          {% for content in item.gallery%}
+            <p class="gallery">
+              <a href="{{content[1]}}">
+              <i class="fa-{{content[0]}}"></i>
+            </a>
+            </p>
+
+          {%endfor %}
+
+        {% endif %}
         </article>
 
 

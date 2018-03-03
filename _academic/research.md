@@ -1,7 +1,7 @@
 ---
+layout: collectionmain
 display: "Research"
 itemdata: research
-layout: academic
 fa-icon: puzzle-piece
 pageloc: 2
 ---
