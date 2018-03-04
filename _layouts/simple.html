@@ -2,8 +2,14 @@
 layout: main
 ---
 
-<section class="wide">
-<article>
-{{page.content | markdownify}}
-<article>
-</section>
+{% capture words %}
+  {{ page.content | number_of_words }}
+{% endcapture %}
+
+{% if words > "1" %}
+  <section class="wide">
+  <article>
+  {{page.content | markdownify}}
+  <article>
+  </section>
+{%endif%}
