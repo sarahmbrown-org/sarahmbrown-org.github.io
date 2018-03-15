@@ -23,8 +23,10 @@ layout: default
 
   </main>
 
+  {% unless page.type contains "plain" %}
   <footer>
           {% capture foottext %} {% include footer.md %} {% endcapture %}
           {{ foottext | markdownify }}
   </footer>
+  {% endunless %}
 </body>
