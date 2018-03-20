@@ -31,16 +31,17 @@ social:
 ### template colors, used site-wide via css ###
 colors:
   black: '#2A312E'
-#  white: '#fffdda'  # cream
-  white:     '#D9E2E5'
+  white: '#EBEBEB'  
+#  white:     '#D9E2E5'
   gray:      '#2A312E'
   magenta:   '#92374D'
+  purple: '#462138'
   blue: '#8EB1C7'
   teal: '#556F7A'
   # unused
 
   green:     '#9bcf2f'
-  purple:    '#c869bf'
+##  purple:    '#c869bf'
   orange:    '#fab125'
 
 include:
@@ -80,7 +81,7 @@ collections:
     permalink: /:collection/:year/:title
   blog:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:namp
     display: blog
     menuloc: blog
   category:
