@@ -6,4 +6,4 @@ layout: collectionmain
 pageloc: 4
 ---
 
-In addition  to standard research talks, I also speak on leadership topics though my service activities.  
+In addition to standard research talks, I also speak on leadership topics though my service activities.  
