@@ -31,7 +31,7 @@ social:
 ### template colors, used site-wide via css ###
 colors:
   black: '#2A312E'
-  white: '#EBEBEB'  
+  white: '#FBFBFB'
 #  white:     '#D9E2E5'
   gray:      '#2A312E'
   magenta:   '#92374D'
