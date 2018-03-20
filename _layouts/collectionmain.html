@@ -17,7 +17,9 @@ layout: main
     {% capture id %}{{ item.id }}{% endcapture %}
     {% unless id contains "index" %}
     <section class="{% cycle 'accent1', 'accent2', 'accent3'  %} titled " >
-        <h1> {{item.title}} </h1>
+        <h1><a href="{{ item.url | absolute_url }}">
+           {{item.title}} </a> </h1>
+
          <article class="">
 
         {{ item.content | markdownify}}

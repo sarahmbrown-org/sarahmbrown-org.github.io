@@ -24,7 +24,7 @@ author:
 ---
 Slides will be posted shortly after the workshop
 
-###Workshop Activities
+### Workshop Activities
 
  - [Picking your own problem](http://drsmb.co/nsbe43ac1)
  - [Team choices](http://drsmb.co/mlprob)
