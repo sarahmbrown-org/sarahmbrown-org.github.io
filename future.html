@@ -5,7 +5,7 @@ layout: main
 {% assign acadsections = site.academic | sort: 'pageloc' %}
 {% for acad in acadsections %}
 
-<section class="{% cycle 'accent1', 'accent2', 'accent3'  %} front" >
+<section class="{% cycle 'accent1', 'accent2'  %} front" >
   <h1> {{acad.display}} </h1>
 
   <article class="">
