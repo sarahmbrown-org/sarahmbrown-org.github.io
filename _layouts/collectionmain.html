@@ -16,9 +16,9 @@ layout: main
 {% for item in currcoll reversed%}
     {% capture id %}{{ item.id }}{% endcapture %}
     {% unless id contains "index" %}
-    <section class="{% cycle 'accent1', 'accent2', 'accent3'  %} titled " >
+    <section class="{% cycle 'accent1', 'accent2', %} titled " >
         <h1><a href="{{ item.url | absolute_url }}">
-           {{item.title}} </a> </h1>
+           {{item.title}}</a> </h1>
 
          <article class="">
 
@@ -31,8 +31,8 @@ layout: main
         <!---<p class="article-foot"> Items</p>--->
           {% for content in item.gallery%}
             <p>
-              <a href="{{content[1]}}">
-              <i class="fa-{{content[0]}}"></i>
+              <a title='{{content[0]}}' href="{{content[2]}}">
+              <i class="far fa-{{content[1]}}"></i>
             </a>
             </p>
 

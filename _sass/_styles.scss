@@ -108,6 +108,9 @@ header{
 }
 
 .gallery{
+  margin-left: 50%;
+  width: fit-content;
+  transform: translateX(-50%);
   p{
     display: inline-block;
     width: 75px;
@@ -117,8 +120,9 @@ header{
     padding-top: 30px;
     i {
         color: inherit;
+        font-style: normal;
     }
-}
+  }
 }
 
 p.article-top{
