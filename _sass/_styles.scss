@@ -226,15 +226,23 @@ p a, p a:visited { line-height: inherit; }
 blockquote {
     // @include push(1);
     // @include pull(1);
-    border-left: none;
-    width: 100%;
-    text-align: justify;
-    left:-25px;
     cite { display: block; font-size: 12px; color: #555;
         a, a:visited { color: #555 }
     }
     cite:before { content: "\2014 \0020"; }
-    p { margin-left: 20px; color: inherit; font-style: italic; }
+    p { margin: auto;
+       color: inherit;
+       font-style: italic;
+       display:block;
+     width: fit-content;
+   }
+    em{
+      font-size: 60%;
+      a{
+
+        font-weight: lighter;
+      }
+    }
 }
 
 
