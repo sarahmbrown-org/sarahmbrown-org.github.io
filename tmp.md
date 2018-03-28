@@ -1,10 +1,10 @@
 ---
 layout: simple
-title: "hello"
+title: "Welcome"
 type: plain
 social: social
 landing: true
-permalink: /
+permalink: splash/
 ---
 
 
