@@ -6,4 +6,4 @@ fa-icon: puzzle-piece
 pageloc: 2
 ---
 
-I am interested in applying machine learning methods in the context of scientific problems and the unique challenge that poses. My work falls into two main categories: developing new machine learning techniques to analyze data from scientists and characterizing learning in order to build tools that transfer domain experts' knowledge into algorithmically compatible forms in the methods developed.  
+I build machine learning tools that bridge from data-agnostic methods to systems that fuel data driven discovery in historically qualitative domains. I approach this from two fronts: building interfaces that enable domain scientists to communicate their qualitative expertise to algorithms and developing context-appropriate machine learning solutions through close collaboration with domain scientists.
