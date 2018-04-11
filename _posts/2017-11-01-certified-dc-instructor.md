@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Carpenty Certified Instructor
+title: Data Carpentry Certified Instructor
 headline: I'm a Certified Data Carpentry Instructor!
 categories:
  - news
