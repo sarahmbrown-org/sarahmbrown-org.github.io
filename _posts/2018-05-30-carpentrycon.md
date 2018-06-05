@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CarpentryCon 2018
+title: "CarpentryCon 2018"
 headline: I'm attending Carpentry Con and sharing a teaching tip
 categories:
   - news
