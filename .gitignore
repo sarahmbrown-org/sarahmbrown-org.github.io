@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 _site/
 .DS_Store
 _drafts/
 .sass-cache/
+=======
+_site
+.sass-cache
+.jekyll-metadata
+.DS_store
+.ruby-version
+Gemfile.lock
+
+>>>>>>> 9cbed31f1031a32fa5cd87b28576a9bb0a8be2d9
