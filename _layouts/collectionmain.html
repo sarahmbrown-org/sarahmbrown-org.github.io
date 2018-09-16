@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: default
 ---
 
 <section class="wide">
@@ -17,8 +17,8 @@ layout: main
     {% capture id %}{{ item.id }}{% endcapture %}
     {% unless id contains "index" %}
     <section class="{% cycle 'accent1', 'accent2', %} titled " >
-        <h1><a href="{{ item.url | absolute_url }}">
-           {{item.title}}</a> </h1>
+        <h2><a href="{{ item.url | absolute_url }}">
+           {{item.title}}</a> </h2>
 
          <article class="">
 
@@ -32,7 +32,7 @@ layout: main
           {% for content in item.gallery%}
             <p>
               <a title='{{content[0]}}' href="{{content[2]}}">
-              <i class="far fa-{{content[1]}}"></i>
+              <i class="{{content[1]}}"></i>
             </a>
             </p>
 

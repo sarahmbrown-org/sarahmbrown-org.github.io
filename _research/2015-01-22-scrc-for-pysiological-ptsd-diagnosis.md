@@ -33,9 +33,9 @@ excerpt: "An applied machine learning AAAI-15 paper on a method for learning a s
   propose a sparse combined classification-regression loss function for learning.
   "
 gallery:
-  - [code, code, /files/SCRCforPTSDcode.zip]
-  - [paper, file, /papers/Brown_SCRCforPTSD_AAAI2015.pdf]
-  - [poster, image, /files/SCRCforPTSD_AAAI2015_poster.pdf]
+  - [code, fas fa-code, /files/SCRCforPTSDcode.zip]
+  - [paper, fas fa-file, /papers/Brown_SCRCforPTSD_AAAI2015.pdf]
+  - [poster, fas fa-image, /files/SCRCforPTSD_AAAI2015_poster.pdf]
 ---
 
 

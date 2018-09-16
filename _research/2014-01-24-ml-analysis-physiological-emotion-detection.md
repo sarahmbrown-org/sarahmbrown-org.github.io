@@ -29,7 +29,6 @@ excerpt: "My master's thesis work used machine learning techniques to analyze ph
   and sounds. "
 ---
 
-## Abstract:
 
 Peripheral physiological signals have shown promise as a measure of a person's emotional state. There are many applications where a more quantitative evaluation of an individual's mental state would be beneficial. For example, in PTSD or depression diagnosis, a quantitative measure to assist and compliment the qualitative assessments conducted by clinicians could reduce the time involved in treatment planning. A better understanding of the underlying mechanism is necessary for building systems that use these signals to assist in critical decision making.
 

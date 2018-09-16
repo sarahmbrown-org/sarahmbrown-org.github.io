@@ -5,15 +5,11 @@
 name:        "Sarah M Brown"
 keywords:    "machine learning, research, stem diversity"
 email: you@example.com
-description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+description: Sarah M Brown, PhD ML Researcher, STEM diversity leader
+footer_text: Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url: "https://github.com/brownsarahm/brownsarahm.github.io" # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
@@ -32,11 +28,11 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: ...
+blog_description: thoughts as a junior academic
 
 # Pagination
-paginate: 4
+paginate: 10
 permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
@@ -69,8 +65,6 @@ collections:
   academic:
     output: true
     permalink: /:name/
-    display: home
-    menuloc: ''
   research:
     output: true
     display: research

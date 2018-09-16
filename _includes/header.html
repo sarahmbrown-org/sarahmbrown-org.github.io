@@ -5,7 +5,9 @@
     {% if page.layout != "about" %}
     <span class="site-title">
         {% assign name = site.name | split: ' ' %}
-        <strong>{{ name | first }}</strong> {{ name | last }}
+          <strong>{{ name | first }}</strong> {{ name | last }}{% if page.title %}: {{page.title}}{% endif %}
+
+
     </span>
     {% endif %}
 
@@ -23,16 +25,20 @@
 
       <div class="trigger">
         <!-- About -->
-        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">about</a>
 
-        <!-- Blog -->
-        <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>
-
+        <a href="{{ site.baseurl | prepend: site.url }}/">about</a>
         <!-- Pages -->
-        {% for page in site.pages %}
+        <!-- {% for page in site.pages %}
           {% if page.title and page.url != "/" %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
           {% endif %}
+        {% endfor %} -->
+
+        {% for node in site.collections %}
+        {% if {{node.display}} %}
+            {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+            <a class="page-link" href="{{site.baseurl}}/{{node.menuloc}}">{{node.display}}</a></li>
+            {% endif %}
         {% endfor %}
 
         <!-- CV link -->
