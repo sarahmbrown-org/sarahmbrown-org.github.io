@@ -1,15 +1,15 @@
 ---
 layout: about
-permalink: /
-title: <strong>Your</strong> Name
+permalink: about/
+title: <strong>Sarah M</strong> Brown
 description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image:
+  image: smb.png
   address:
     <p>Data Science Initiative</p>
-    <p>Brown Univeristy</p>
+    <p>Brown University</p>
     <p>Providence, RI</p>
 
 news: true

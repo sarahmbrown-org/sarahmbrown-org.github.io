@@ -6,7 +6,7 @@ layout: default
 {% for acad in acadsections %}
 
 <section class="{% cycle 'accent1', 'accent2'  %} front" >
-  <h1> {{acad.display}} </h1>
+  <h2> {{acad.display}} </h2>
 
   <article class="">
     {{ acad.content| markdownify}}
@@ -15,9 +15,9 @@ layout: default
 
   <aside class="extra">
     {% if acad.news %}
-    <h2><a href="{{site.baseurl}}/category/{{acad.news}}">News:</a></h2>
+    <h3><a href="{{site.baseurl}}/category/{{acad.news}}">News:</a></h3>
     <ul>
-      {% for post in site.news limit:5 reversed %}
+      {% for post in site.news reversed limit:5 %}
       <li><a href="{{ post.url | absolute_url }}">
         {% if post.headline %}
           {{post.headline}}
@@ -30,9 +30,9 @@ layout: default
     {% endif %}
 
     {% if acad.itemdata %}
-      <h2>
+      <b>
        <a href="{{site.baseurl}}{{acad.id}}">more </a>
-     </h2>
+     </b>
     {% endif %}
 
 

@@ -57,6 +57,7 @@ collections:
     defaults:
       layout: post
     output: true
+    menuloc: news
     permalink: /news/:path/
   projects:
     output: true
@@ -64,6 +65,7 @@ collections:
   bio:
   academic:
     output: true
+    menuloc: about
     permalink: /:name/
   research:
     output: true

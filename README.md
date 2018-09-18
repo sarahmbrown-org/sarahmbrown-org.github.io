@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 
 # How this works
 
@@ -186,4 +184,3 @@ Style improvements and bug fixes are especially welcome.
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
->>>>>>> 9cbed31f1031a32fa5cd87b28576a9bb0a8be2d9
