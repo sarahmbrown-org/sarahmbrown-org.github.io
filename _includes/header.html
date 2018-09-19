@@ -2,10 +2,10 @@
 
   <div class="wrapper">
 
-    {% if page.layout != "about" %}
+    {% if page.id != "index" %}
     <span class="site-title">
         {% assign name = site.name | split: ' ' %}
-          <strong>{{ name | first }}</strong> {{ name | last }}{% if page.title %}: {{page.title}}{% endif %}
+          <a href="/"><strong>{{ name | first }}</strong> {{ name | last }}</a>{% if page.title %}: {{page.title}}{% endif %}
 
 
     </span>
@@ -26,7 +26,7 @@
       <div class="trigger">
         <!-- About -->
 
-        <a href="{{ site.baseurl | prepend: site.url }}/">about</a>
+        <a href="{{ site.baseurl | prepend: site.url }}/about">about</a>
         <!-- Pages -->
         <!-- {% for page in site.pages %}
           {% if page.title and page.url != "/" %}

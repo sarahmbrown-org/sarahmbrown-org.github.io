@@ -5,7 +5,31 @@ layout: default
 {% assign acadsections = site.academic | sort: 'pageloc' %}
 {% for acad in acadsections %}
 
-<section class="{% cycle 'accent1', 'accent2'  %} front" >
+<section class="" >
+
+  {% if acad.profile %}
+  <header class="post-header">
+    <h1 class="post-title">{{ acad.title }}</h1>
+    <h5 class="post-description">{{ acad.description }}</h5>
+  </header>
+  <article class="">
+    <div class="profile col one {{ acad.profile.align }}">
+      {% if acad.profile.image %}
+        <img class="one" src="{{ acad.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+      {% endif %}
+      {% if acad.profile.address %}
+        <div class="address">
+          {{ acad.profile.address }}
+        </div>
+      {% endif %}
+    </div>
+
+      {{ acad.content| markdownify}}
+
+    </article>
+  {% else %}
+
+
   <h2> {{acad.display}} </h2>
 
   <article class="">
@@ -38,6 +62,6 @@ layout: default
 
   </aside>
 
-
+{% endif %}
 </section>
 {% endfor %}

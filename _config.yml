@@ -4,7 +4,7 @@
 # -----------------------------------------------------------------------------
 name:        "Sarah M Brown"
 keywords:    "machine learning, research, stem diversity"
-email: you@example.com
+# email: you@example.com
 description: Sarah M Brown, PhD ML Researcher, STEM diversity leader
 footer_text: Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

@@ -1,11 +1,11 @@
 
 <nav>
   <ul>
-    {% for node in site.collections %}
-    {% if {{node.display}} %}
+    {% for node in site.academic %}
+    <!-- {% if {{node.display}} %} -->
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-        <li class="p-{{id}}"><a href="{{site.baseurl}}/{{node.menuloc}}">{{node.display}}</a></li>
-        {% endif %}
+        <li class="p-{{id}}"><a href="{{site.baseurl}}/{{node.url}}">{{node.display}}</a></li>
+        <!-- {% endif %} -->
     {% endfor %}
   </ul>
 </nav>

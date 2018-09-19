@@ -2,7 +2,7 @@
 layout: about
 permalink: about/
 title: <strong>Sarah M</strong> Brown
-description: <a href="">Brown Data Science Initiative</a>. Address. Contacts. Moto. Etc.
+description: Brown Data Science Initiative Postdoc
 
 profile:
   align: right
