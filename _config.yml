@@ -94,7 +94,7 @@ collections:
     menuloc: blog
   category:
     output: true
-    permalink: /:collection/:name/
+    permalink: /writings-on/:name/
 
 news_limit: 5
 
