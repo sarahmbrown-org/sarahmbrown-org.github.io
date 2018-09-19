@@ -1,26 +1,35 @@
 a {
-    color: $text-color;
+    color: $link-color;
     text-decoration: none;
 
     &:hover {
-        color: $theme-color;
+        color: $link-hover-color;
         text-decoration: none;
     }
 }
 
 article a, .news a {
-    color: $theme-color;
+    color: $link-color;
     font-weight: 100;
 
     &:hover {
-        text-decoration: underline;
+      color: $link-hover-color;
+      text-decoration: underline;
     }
 }
 
 .social a {
-    color: $text-color;
+  color: $link-color;
+    &:hover {
+        color: $link-hover-color;
+        color: $theme-color; }
+}
 
-    &:hover { color: $theme-color; }
+
+h1, h2, h3, h4, h5 {
+    a {
+    color:$text-color;
+  }
 }
 
 

@@ -39,3 +39,24 @@ figcaption {
     vertical-align: middle;
     font-size: $caption-font-size;
 }
+
+.gallery{
+  margin-left: 50%;
+  width: fit-content;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p{
+    padding-right: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 30px;
+    i {
+        color: inherit;
+        font-style: normal;
+    }
+  }
+}
