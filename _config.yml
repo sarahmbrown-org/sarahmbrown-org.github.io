@@ -6,8 +6,8 @@ name:        "Sarah M Brown"
 keywords:    "machine learning, research, stem diversity"
 # email: you@example.com
 description: Sarah M Brown, PhD ML Researcher, STEM diversity leader
-footer_text: Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+# footer_text: Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+#   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 # url: "https://github.com/sarahmbrown-org/sarahmbrown-org.github.io" # the base hostname & protocol for your site
 last_updated: # leave blank if you don't want to display last updated
@@ -20,8 +20,7 @@ twitter_username: brownsarahm
 linkedin_username: smariebrown
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note:
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
