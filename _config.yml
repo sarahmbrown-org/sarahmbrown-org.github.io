@@ -20,7 +20,7 @@ twitter_username: brownsarahm
 linkedin_username: smariebrown
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
-contact_note:
+# contact_note:
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -48,6 +48,7 @@ show_social_icons:  false
 enable_anchorjs:    false
 enable_katex:       true
 
+news_limit: 5
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
@@ -95,7 +96,6 @@ collections:
     output: true
     permalink: /writings-on/:name/
 
-news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

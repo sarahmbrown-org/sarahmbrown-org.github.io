@@ -1,7 +1,7 @@
 ---
 layout: research
-title: "Applied Data Science"
-excerpt: "Applied data science "
+title: "Racial Profiling and Marijuana Reform"
+excerpt: "An applied data science project exploring "
 ---
 <!-- gallery:
   - [code, fab fa-github, 'https://github.com/fairnessforensics/detect_simpsons_paradox']
@@ -9,4 +9,4 @@ excerpt: "Applied data science "
   - [paper, fas fa-file, /files/dsp_paper.pdf] -->
 
 
-I work on applied data science projects
+In collaboration with economist Terry-Ann Craigie, I am studying the impact of marijuana reform on racial profiling as measured through traffic stops.

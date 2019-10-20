@@ -11,14 +11,19 @@
 }
 
 .news {
-    border-top: 1px solid $grey-color-light;
+    // border-top: 1px solid $grey-color-light;
     margin-top: 30px;
-    padding-top: 20px;
+    padding-top: 0px;
+    text-align: right;
 
     h2 {
         font-weight: bold;
         margin-top: 0;
         margin-bottom: 10px;
+    }
+    h4 a{
+        font-weight: bold;
+        // color: ;
     }
     table {
         border-collapse: collapse;
@@ -37,7 +42,7 @@
 }
 
 .social {
-    border-top: 1px solid $grey-color-light;
+    // border-top: 1px solid $grey-color-light;
     margin-top: 50px;
     padding-top: 20px;
 }

@@ -37,7 +37,7 @@ layout: default
 
   </article>
 
-  <aside class="extra">
+  <aside class="news">
     {% if acad.news %}
     <h3><a href="{{site.baseurl}}/category/{{acad.news}}">News:</a></h3>
     <ul>
@@ -54,9 +54,9 @@ layout: default
     {% endif %}
 
     {% if acad.itemdata %}
-      <b>
+      <h4>
        <a href="{{site.baseurl}}{{acad.id}}">more </a>
-     </b>
+     </h4>
     {% endif %}
 
 

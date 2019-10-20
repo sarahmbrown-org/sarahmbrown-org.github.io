@@ -5,7 +5,8 @@
     {% if page.id != "index" %}
     <span class="site-title">
         {% assign name = site.name | split: ' ' %}
-          <a href="/"><strong>{{ name | first }}</strong> {{ name | last }}</a>
+          <a href="/"><strong>{{ name | first }}</strong> {% for item in name offset: 1 %} {{ item }} {% endfor %} </a>
+            <!-- {{ name | last }}</a> -->
 
 
     </span>
