@@ -49,6 +49,12 @@ enable_anchorjs:    false
 enable_katex:       true
 
 news_limit: 5
+
+
+# remote_theme: ml4sts/lab-site-theme-al-folio@main
+
+
+
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------

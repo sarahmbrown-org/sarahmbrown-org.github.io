@@ -2,7 +2,7 @@
 layout: about
 permalink: about/
 title: <strong>Sarah M</strong> Brown
-description: Assistant Progressor of Computer Science
+description: Assistant Profressor of Computer Science
 news: true
 social: true
 profile:
