@@ -117,10 +117,15 @@ exclude: [vendor]
 
 # Plug-ins
 plugins:
-    # - jekyll-email-protect
-    - jekyll-paginate
-    # - jekyll/scholar
-    # - jemoji
+  - jekyll-remote-theme
+  - jekyll-email-protect
+  - jekyll-paginate-v2
+  - jekyll/scholar
+  - jemoji
+  # - bootstrap
+  # - material-sass
+
+remote_theme: ml4sts/lab-site-theme-al-folio@main
 
 # Jekyll-Scholar
 scholar:
