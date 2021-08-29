@@ -9,7 +9,7 @@ profile:
   align: right
   image: img/smb.png
   address:
-    <p> Tyler Hall 134</p>
+    <p>Tyler Hall 134</p>
     <p>Computer Science & Statistics Department</p>
     <p>University of Rhode Island</p>
     <p>Kingston, RI</p>
