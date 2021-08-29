@@ -24,6 +24,10 @@ navbar_fixed: true
 footer_fixed: true
 # TODO: add layout settings (single page vs. multi-page)
 
+menulink:
+  url: https://ml4sts.com/
+  title: Lab
+
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
