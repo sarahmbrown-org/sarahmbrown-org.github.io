@@ -19,7 +19,7 @@ jobs:
 
 
     # Specify the target branch (optional)
-    - uses: helaili/jekyll-action@2.0.4
+    - uses: helaili/jekyll-action@2.2.0
       env:
         JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
       with:
