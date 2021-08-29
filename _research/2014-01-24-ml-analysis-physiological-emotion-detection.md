@@ -1,5 +1,5 @@
 ---
-layout: research
+layout: page
 title: Machine Learning Analysis of Peripheral Physiology for Emotion Detection
 date: 2014-01-24 12:17:38.000000000 -08:00
 type: jetpack-portfolio

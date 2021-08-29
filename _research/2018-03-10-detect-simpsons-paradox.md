@@ -1,5 +1,5 @@
 ---
-layout: research
+layout: page
 title: "Detecting Simpson's Paradox"
 excerpt: "Detector and data generators for Simpson's Paradox"
 gallery:

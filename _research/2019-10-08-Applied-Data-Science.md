@@ -1,5 +1,5 @@
 ---
-layout: research
+layout: simple
 title: "Racial Profiling and Marijuana Reform"
 excerpt: "An applied data science project exploring "
 ---

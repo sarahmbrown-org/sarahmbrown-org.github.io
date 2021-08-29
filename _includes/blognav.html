@@ -1,9 +1,0 @@
-<nav class='sidenav'>
-  <h1>Categories</h1>
-  <ul>
-  {% for node in site.category %}
-      {% capture id %}{{ node.title | remove:'/' | downcase }}{% endcapture %}
-      <li class="p-{{id}}"><a href="{{node.url}}">{{node.title}}</a></li>
-  {% endfor %}
-  </ul>
-</nav>

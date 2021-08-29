@@ -1,5 +1,5 @@
 ---
-layout: speaking
+layout: simple
 title: Intro to LaTeX
 date: 2015-09-15 14:19:05.000000000 -07:00
 type: jetpack-portfolio

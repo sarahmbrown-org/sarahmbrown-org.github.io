@@ -1,5 +1,5 @@
 ---
-layout: teaching
+layout: simple
 title: Bayesian Nonparametric Guest Lectures
 ---
 

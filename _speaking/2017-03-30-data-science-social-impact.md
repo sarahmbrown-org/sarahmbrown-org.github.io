@@ -1,5 +1,5 @@
 ---
-layout: speaking
+layout: simple
 title: Data Science For Social Impact
 date: 2017-03-30 13:02:54.000000000 -07:00
 type: jetpack-portfolio
