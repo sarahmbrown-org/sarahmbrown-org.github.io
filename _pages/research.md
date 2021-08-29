@@ -1,5 +1,5 @@
 ---
-title: Research
+title: research
 layout: tilesresearch
 tilecollection: research
 display: "Research"

@@ -1,5 +1,5 @@
 ---
-display: "Talks"
+title: speaking
 itemdata: speaking
 type: academic
 layout: tilesspeaking

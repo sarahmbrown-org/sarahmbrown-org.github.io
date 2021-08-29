@@ -1,5 +1,5 @@
 ---
-title: Teaching
+title: teaching
 layout: tilesteaching
 fa-icon: university
 pageloc: 3

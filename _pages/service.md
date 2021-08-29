@@ -1,5 +1,5 @@
 ---
-title: Service
+title: service
 permalink: /service/
 layout: tilesservice
 tilecollection: service
