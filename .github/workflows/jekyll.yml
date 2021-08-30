@@ -17,10 +17,24 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gems-
 
-
-    # Specify the target branch (optional)
-    - uses: helaili/jekyll-action@2.2.0
-      env:
-        JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
       with:
-        target_branch: 'gh-pages'
+        ruby-version: 2.6.x
+
+    # build using custom jekyll
+    - name: Build Jekyll site
+      run: |
+        set -xo pipefail
+        rm -rf _site/*
+        gem install bundler
+        bundle install
+        bundle exec jekyll build
+        cp CNAME _site/CNAME
+
+    # Push the book's HTML to github-pages
+    - name: GitHub Pages action
+      uses: peaceiris/actions-gh-pages@v3.6.1
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
