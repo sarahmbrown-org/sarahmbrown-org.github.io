@@ -24,5 +24,6 @@ publications
 teaching
 service
 speaking
+lab <https://ml4sts.com>
 news
 ```
