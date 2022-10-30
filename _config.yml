@@ -2,18 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title:        "Sarah M Brown"
-keywords:    "machine learning, research, stem diversity"
-# email: you@example.com
-description: >
-  Sarah M Brown, PhD ML Researcher, STEM diversity leader
+title: Sarah M Brown
+email: brownsarahm@uri.edu
+description: > # this means to ignore newlines until "url:"
+  Dr. Sarah M Brown, Assistant Professor of Computer Science at Universtiy of Rhode Island
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with a <a href="https://github.com/ml4sts/lab-site-theme-al-folio">customized al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-url: sarahmbrown.org # the base hostname & protocol for your site
+
+url: ml4sts.com # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: # leave blank if you don't want to display last updated
+last_updated: false # set to true if you want to display last updated in the footer
 theme-color: 3d85c6
 permalink: pretty
 # -----------------------------------------------------------------------------
@@ -24,103 +24,91 @@ navbar_fixed: true
 footer_fixed: true
 # TODO: add layout settings (single page vs. multi-page)
 
-menulink:
-  url: https://ml4sts.com/
-  title: lab
+# -----------------------------------------------------------------------------
+# Open Graph
+# -----------------------------------------------------------------------------
+# Display links to the page with a preview object on social media.
+# To achieve this, change serve_og_meta to true and then provide the URL of the
+# preview image as the value of og_image.
+serve_og_meta: false # Include Open Graph meta tags in the HTML head
+og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: brownsarahm
-twitter_username: brownsarahm
-linkedin_username: smariebrown
+
+github_username: ml4sts # your GitHub user name
+twitter_username: ml4sts # your Twitter handle
+linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
-# contact_note:
+medium_username: # your Medium username
+quora_username: # your Quora username
+publons_id: # your ID on Publons
+research_gate_profile: # your profile on ResearchGate
+blogger_url: # your blogger URL
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+contact_note:
+
+google_analytics:  # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-# blog_name: ...
-# blog_description: thoughts as a junior academic
 
-# Pagination
+blog_name:   # your blog must have a name for it to show up in the nav bar
+blog_description:
+permalink: /blog/:year/:title/
+
 # Pagination
 pagination:
   enabled: true
-# paginate: 10
-# permalink: /blog/:year/:title/
-# paginate_path: /blog/page:num/
-#
-# text:
-#   pagination:
-#     newer: 'Newer'
-#     older: 'Older'
 
-
-# Optional features
-show_social_icons:  false
-enable_anchorjs:    false
-enable_katex:       true
-
-
-
-# remote_theme: ml4sts/lab-site-theme-al-folio@main
-
-
+# Comments
+# disqus_shortname: al-folio # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
+
 collections:
   news:
     defaults:
       layout: post
     output: true
-    menuloc: news
     permalink: /news/:path/
-  bio:
-  research:
+  projects:
     output: true
-    display: research
-    menuloc: research
-    permalink: /:collection/:title
-  service:
+    permalink: /projects/:path/
+  people:
     output: true
-    display: service
-    menuloc: service
-    permalink: /:collection/:title
-  speaking:
-    output: true
-    display: speaking
-    menuloc: speaking
-    permalink: /:collection/:title
+    permalink: /people/:path/
   teaching:
-    output: true
-    display: teaching
-    menuloc: teaching
-    permalink: /:collection/:year/:month/:title
-  blog:
-    output: true
-    permalink: /:collection/:name
-    display: blog
-    menuloc: blog
 
-news_limit: 15
+
+news_limit: 10
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
-# Build settings
+# Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
+highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
 
 # Includes & excludes
 include: ['_pages']
-exclude: [vendor,mdtemplates]
+exclude: [vendor]
 
 # Plug-ins
 plugins:
@@ -133,7 +121,7 @@ plugins:
   # - material-sass
 
 remote_theme: ml4sts/lab-site-theme-al-folio@main
-
+# theme: lab-site-theme-al-folio
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
@@ -172,7 +160,6 @@ enable_progressbar:       true
 enable_tooltips:          false
 show_social_icons:        false
 
-
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
@@ -207,25 +194,3 @@ mdb:
 popper:
   version: "2.4.0"
   integrity: "sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw="
-
-
-
-### template colors, used site-wide via css ###
-colors:
-  black: '#2A312E'
-  white: '#FBFBFB'
-#  white:     '#D9E2E5'
-  gray:      '#2A312E'
-  magenta:   '#92374D'
-  purple: '#462138'
-  blue: '#8EB1C7'
-  teal: '#465B64'
-  # unused
-
-  green:     '#9bcf2f'
-##  purple:    '#c869bf'
-  orange:    '#fab125'
-
-include:
-  - _pages
-  - files
