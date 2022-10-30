@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://sarahmbrown.org</id>
+  <title> Sarah M Brown</title>
+  <updated>2022-10-30T23:24:51.643652+00:00</updated>
+  <link href="https://sarahmbrown.org"/>
+  <link href="https://sarahmbrown.org/news/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
+  <entry>
+    <id>https://sarahmbrown.org/news/2021-07-24-teachml/</id>
+    <title>New Paper accepted to Teachml 21</title>
+    <updated>2021-07-24T00:00:00+00:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;I have a paper accepted to ECMLPKDD Teach ML workshop on how I designed and taught CSC/DSP 310 last fall.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://sarahmbrown.org/news/2021-07-24-teachml/" rel="alternate"/>
+    <summary>I have a paper accepted to ECMLPKDD Teach ML workshop on how I designed and taught CSC/DSP 310 last fall.</summary>
+    <published>2021-07-24T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://sarahmbrown.org/news/2021-08-06-ibm-award/</id>
+    <title>New Funding from IBM</title>
+    <updated>2021-08-06T00:00:00+00:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;I Received a 2021 IBM Global University Program Academic Award to develop
+an Information Theoretic Framework for Evaluating Fairness in AI Applications.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://sarahmbrown.org/news/2021-08-06-ibm-award/" rel="alternate"/>
+    <summary>I Received a 2021 IBM Global University Program Academic Award to develop
+an Information Theoretic Framework for Evaluating Fairness in AI Applications.</summary>
+    <published>2021-08-06T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://sarahmbrown.org/news/2021-08-16-eaamo/</id>
+    <title>New Paper Accepted to EAAMO'21</title>
+    <updated>2021-08-16T00:00:00+00:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;A paper with the Boykin lab at Brown University was accepted to the  inaugural
+ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization.
+It’s an extension of a previous workshop paper, “Opportunities for a More Interdisciplinary Approach to Perceptions of Fairness in Machine Learning”&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://sarahmbrown.org/news/2021-08-16-eaamo/" rel="alternate"/>
+    <summary>A paper with the Boykin lab at Brown University was accepted to the  inaugural
+ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization.
+It’s an extension of a previous workshop paper, “Opportunities for a More Interdisciplinary Approach to Perceptions of Fairness in Machine Learning”</summary>
+    <published>2021-08-16T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://sarahmbrown.org/news/2021-08-23-td-stem-academy/</id>
+    <title>TD STEM Academy Workshop</title>
+    <updated>2021-08-23T00:00:00+00:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Professor Brown and incoming Graduate student Emmely Trejo Alvarez are hosting
+a workshop for incoming students this week to learn about AI biases by replicating
+the COMPAS analysis.  Resources are available &lt;a class="reference external" href="https://ml4sts.com/outreach-compas/"&gt;online&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://sarahmbrown.org/news/2021-08-23-td-stem-academy/" rel="alternate"/>
+    <summary>Professor Brown and incoming Graduate student Emmely Trejo Alvarez are hosting
+a workshop for incoming students this week to learn about AI biases by replicating
+the COMPAS analysis.  Resources are available online</summary>
+    <published>2021-08-23T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://sarahmbrown.org/news/2022-03-11-wids/</id>
+    <title>WiDS Cambridge Women of Color in Data Science Panel</title>
+    <updated>2022-03-11T00:00:00+00:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;I spoke on a panel at the 2022 &lt;a class="reference external" href="https://www.widscambridge.org/"&gt;WiDS Cambridge&lt;/a&gt; on &lt;a class="reference external" href="https://www.youtube.com/watch?v=Urn8noohoiM&amp;amp;list=PLYx2nCJDi_QEyu7-aN3YheHw5u2Pm98rb&amp;amp;index=5"&gt;Women of Color in Data Science&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://sarahmbrown.org/news/2022-03-11-wids/" rel="alternate"/>
+    <summary>I spoke on a panel at the 2022 WiDS Cambridge on Women of Color in Data Science</summary>
+    <published>2022-03-11T00:00:00+00:00</published>
+  </entry>
+</feed>

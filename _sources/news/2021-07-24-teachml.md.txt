@@ -1,0 +1,10 @@
+---
+layout: post
+title: New Paper accepted to Teachml 21
+date: 2021-07-24
+inline: false
+---
+
+# New Paper accepted to Teachml 21
+
+I have a paper accepted to ECMLPKDD Teach ML workshop on how I designed and taught CSC/DSP 310 last fall.

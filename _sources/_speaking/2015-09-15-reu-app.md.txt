@@ -1,0 +1,46 @@
+---
+layout: simple
+title: Research Experience For Undergraduates Applications
+date: 2015-09-15 14:42:57.000000000 -07:00
+type: jetpack-portfolio
+published: true
+status: publish
+categories: []
+tags: []
+meta:
+  bitly_url: http://2smb.link/1KkZrEG
+  bitly_hash: 1KkZrEG
+  bitly_long_url: http://www.sarahmbrown.org/?post_type=jetpack-portfolio&p=705
+  _edit_last: '1'
+  _wpas_done_all: '1'
+  _wpas_skip_5078444: '1'
+  _wpas_skip_5078449: '1'
+  _yoast_wpseo_opengraph-title: 'Workshop Info: REU Application'
+  _yoast_wpseo_twitter-title: 'Workshop Info: REU Application'
+  _yoast_wpseo_focuskw: application
+  _yoast_wpseo_linkdex: '66'
+author:
+  login: smb@sarahmbrown.org
+  email: smb@sarahmbrown.org
+  display_name: Sarah Brown
+  first_name: Sarah
+  last_name: Brown
+excerpt: 'A research experience for undergraduates can be a great way to spend a summer.  These
+  paid programs typically provide housing and a stipend while exposing you to what
+  life as a graduate researcher is like and building technical skills. Getting into
+  a program can be competitive though.  In this workshop we''ll break down what each
+  component of a typical application really means, and provide best practices for
+  preparing your own application.  We will give dos & don''ts through examples and
+  help give you the right questions to answer to make a strong application.  We will
+  also cover how to find a good REU site- just finding the right research project
+  can be challenging before your have had research experience.  '
+---
+
+## Context:
+I completed a Research Experience for Undergraduates (REU) in summer 2007 and have hosted three packed application workshops as a graduate student.  This workshop is catered to students who have an interest in doing research and a general idea of what research is.  This workshop focuses on the components of an application and how to find an appropriate REU site and faculty mentor.  It has typically been hosted with assistance of a number of students who have completed REUs to provide individual feedback on draft application materials, but could be done in a peer review format, or without the working session.
+
+##Sample Abstract
+A research experience for undergraduates can be a great way to spend a summer.  These paid programs typically provide housing and a stipend while exposing you to what life as a graduate researcher is like and building technical skills. Getting into a program can be competitive though.  In this workshop we'll break down what each component of a typical application really means, and provide best practices for preparing your own application.  We will give dos &amp; don'ts through examples and help give you the right questions to answer to make a strong application.  We will also cover how to find a good REU site- just finding the right research project can be challenging before your have had research experience.
+
+## Presented
+Northeastern University, Student Research Engagement Committee (targeted to 1st year students) Jan 2013, November 2013, November 2014
