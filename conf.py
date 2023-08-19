@@ -60,9 +60,33 @@ html_theme_options = {
   "github_url": "https://github.com/brownsarahm/",
   "twitter_url": "https://twitter.com/brownsarahm",
   "search_bar_text": "Search this site...",
-  "google_analytics_id": "",
   "navbar_end": ["search-field.html", "navbar-icon-links"],
+  "icon_links": [
+        {
+            # Label for this link
+            "name": "Lab GitHub",
+            # URL where the link will redirect
+            "url": "https://github.com/ml4sts/",  # required
+            # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
+            "icon": "fa fa-terminal",
+            # The type of image to be used (see below for details)
+            "type": "fontawesome",
+        },
+         {
+            # Label for this link
+            "name": "Lab GitHub",
+            # URL where the link will redirect
+            "url": "https://github.com/ml4sts/",  # required
+            # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
+            "icon": "fa fa-terminal",
+            # The type of image to be used (see below for details)
+            "type": "fontawesome",
+        }
+  ]
 }
+
+
+
 
 # html_favicon = "_static/favicon.ico"
 html_title = project
