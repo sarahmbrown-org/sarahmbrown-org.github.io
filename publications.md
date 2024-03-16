@@ -3,10 +3,8 @@
 
 ```{bibliography} _static/papers.bib
 :style: plain
-:labelprefix: 2021
-:filter: year % "2021"
 ```
-
+<!-- 
 
 
 ```{bibliography} _static/papers.bib
@@ -44,4 +42,4 @@
 :style: unsrt
 :labelprefix: 2010
 :filter: year % "2010"
-```
+``` -->

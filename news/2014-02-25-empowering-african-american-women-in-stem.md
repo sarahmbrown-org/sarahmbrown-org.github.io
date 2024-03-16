@@ -31,6 +31,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+#  Empowering African American Women in STEM
+
 <span style="line-height: 1.5em;">Last summer, I was invited to join a </span><a style="line-height: 1.5em;" href="http://nsbe.org" target="_blank">NSBE<span style="line-height: 1.5em;"> Task Force on Empowering African American Women in STEM.  The task force was established to identify appropriate strategies for NSBE to be most impactful as a society in improving the environment for AA women in STEM, especially engineering and CS. We worked throughout the summer and early fall to make an initial recommendation to the National Executive Board.  </span>
 
 One of those recommendations was to host a recognition month celebrating African American Women in STEM.  We chose to make this month run from today, February 16th through March 15th.  We're celebrating African American women half in Black History Month and half in Women's History Month.  Our celebration began on Sunday, along with Engineer's Week and continues for four weeks.  We issued an eBlast announcing to the whole membership of our launched a [](http://www.nsbe.org/Membership/Empowering-AAWiSTEM.aspx">page of content on the NSBE site. We're running an [](http://www.nsbe.org/Membership/Empowering-AAWiSTEM/Awareness-Month.aspx" target="_blank">Awareness month and [](http://www.nsbe.org/getattachment/Membership/Empowering-AAWiSTEM/Twitter-Chats/AAWiSTEM_photo-challenge.png.aspx?width=500&height=500" target="_blank">photo challenge.

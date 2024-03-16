@@ -22,4 +22,6 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# Arrived in Tubigen!
+
 I've arrived in Tübingen, Germany for the Machine Learning Summer School hosted at the Max Planck Institute for Intelligent Systems.

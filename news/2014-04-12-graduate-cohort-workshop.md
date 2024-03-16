@@ -29,6 +29,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# Graduate Cohort Workshop
+
 The past two days I've been in Santa Clara, California, for the [Computer Research Association's Committee on the Status of Women in Computing Research (CRA-W)](http://www.cra-w.org/about-cra-w) [Graduate Cohort Workshop](http://cra-w.org/ArticleDetails/tabid/77/ArticleID/55/Graduate-Cohort-Workshop.aspx).  CRA-W is an action-oriented committee that exists to study and improve the status of women in computer science research careers.  The graduate cohort workshop is a two-day professional development workshop for women graduate students in their first three years of graduate school.  There are workshops and panels by senior women in the field from both industry and academia.  It's also an awesome opportunity to connect with a larger network of peers who are all in similar research areas.
 
 I got a lot of great advice and even more just timely reminders and refreshers of things I "knew" but weren't at the front of my mind.  Most of the advice at this type of workshop isn't life changing, a lot of the points are things you hear multiple times, but repetition is helpful.  The best part is the networking.  There was a poster session and ample breaks and meals together to get to interact and meet the 303 other women here as participants as well as the mentors.

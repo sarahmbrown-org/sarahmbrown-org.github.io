@@ -28,6 +28,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+
+# Kimball Union Academy TECHplusHack
 This weekend I spent a little over 24 hours at Kimball Union Academy in Meriden, NH for their TECH+hack.  It was a hackathon for the high school students here, where they were encouraged to not only build apps, but also hardware systems or conduct an experiment.  Essentially their challenge was to connect their other interests to anything Tech.  Many of the students tackled problems they had no idea how to get started with.  A few had some programming experience, but many were just getting started and relied on the tutorials offered during the hack. It was really cool to see how excited to learn and fearless about failing the students were.  Their projects varied from hobbies, to improvements for the school, to just exploring curiosities.  
 
 After the twenty-four hours of work, at the end of Sunday Brunch at the school, the students presented the results of their projects.  Two projects were related to arts-based capstones: laser cutting for a hand made guitar and designing a fire background that could be integrated with Kinect to give the effect of a dancer on fire.  The school is located in a remote area, so the cell reception isn't great; two students build a cell phone reception booster.  One young woman built a website that could track cross country runners as they worked their way through the wooded course.    

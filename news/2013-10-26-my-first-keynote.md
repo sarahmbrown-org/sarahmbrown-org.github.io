@@ -26,6 +26,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# My First Keynote
+
 Yesterday evening I gave a keynote at the New England Louis Stoke Alliance for Minority Participation (NELSAMP) Poster Symposium hosted at Northeastern.  The event is in conjunction with tomorrow's GEM Getting Ready for Advanced Degrees (GRAD) Laboratory, tomorrow.  I was asked to speak at the event a couple months ago, I agreed.  For a while I didn't think much about it then I started planning the talk.     I've prepared plenty of presentations before without much of a problem.  However, I've always struggled with giving speeches, so I wanted to go a more presentation-like style for talk.  Something about preparing things word for word, I never manage to get through delivering it smoothly.
 
 So I opened a document and started making notes of the points I wanted to make.   I started listing points on slides.  But this was a very different type of talk than I'm used to giving.  I wasn't simply giving a talk on a predetermined topic, or explaining results. I had to figure out how to be motivational to a group of students. Thinking through what I wanted to say about grad school was a lot harder than I expected.

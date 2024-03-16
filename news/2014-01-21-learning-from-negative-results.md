@@ -32,7 +32,9 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
-I posted previously a little about my <a title="My Master’s Thesis Experience" href="http://sarahmbrown.org/2013/12/01/my-masters-thesis/">MS thesis.  It's finally completely done and fully [](http://iris.lib.neu.edu/elec_comp_theses/123/">published.
+# Learning From Negative Results
+
+I posted previously a little about my [MS thesis](2013-12-01-my-masters-thesis).  It's finally completely done and fully [published](http://iris.lib.neu.edu/elec_comp_theses/123).
 
 My project started out with the objective to build better models for human emotion, using a standard set of features derived from peripheral physiology signals.  These signals are considered to be indirect, but still valuable, measurements of activity in the brain.  Having more detailed models for how emotion exists in the brain could have impact on research in psychopathologies.  Prior work with standard statistical analysis showed some differences in the measurements that correlated with the different emotions.  The problem that I was to address was that the measurements were only weak predictors of the specific emotions.
 

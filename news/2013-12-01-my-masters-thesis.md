@@ -30,6 +30,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# My Master's Thesis Experience
+
 I knew during the fall of my senior year that I wanted a PhD.  I finalized my decisions after I started exploring schools to apply to and working on my personal statement, but I knew then that was what I wanted.  I applied directly to PhD programs.  In the progra I ended up in, when we enter without a Master's degree we need to fulfill the MS requirements as a s subset of the PhD requirements.  We have two options, we can fulfill the MS credits as 8 courses or 6 courses and a thesis.  I want a PhD because I want to do research, I enjoy research, not because I want to take classes.  I like learning and discovering, of course, but coursework isn't how I learn best.
 
 I chose to write the thesis.  I also had started to feel like I was at a dead end with my research.  We had tried a lot of things and nothing gave good results.  Nothing even gave hope that a different model would work.  Everything I did said to me that we were asking the wrong type of questions from the data.  I used the MS thesis as an opportunity to write it out and get my advisers on the same page.  I also realized how disorganized I had been about research to that point.  Writing the thesis made completing the MS requirements take longer than I expected.  Two classes I could have taken last spring.  Then I could ahve completed the MS and walked in May, like I planned.  However, I think this experience has made me much more prepared for the remainder of my PhD.

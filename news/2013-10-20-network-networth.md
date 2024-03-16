@@ -22,6 +22,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# Network = Net worth
+
 First, I'm struggling with this effort to post regularly, but I'll keep trying.  
 
 <blockquote>"It's not what you know, but who you know"

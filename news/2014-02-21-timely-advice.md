@@ -28,6 +28,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# Timely Advice
+
 Wednesday, I received a piece of advice labeled as "the one piece of advice  I wish I would have had day one of the graduate school process."
 
 <blockquote>Give your committee what they want and change the world once you have your Ph.D

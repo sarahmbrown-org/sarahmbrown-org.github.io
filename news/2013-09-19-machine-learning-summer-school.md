@@ -25,6 +25,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# Machine Learning Summer School
+
 This post is long overdue, but jetlag after the summer school and a planned end-of-summer trip to visit friends got the best of me when I got home.
 
 The <a title="MLSS- Tubigen" href="http://mlss.tuebingen.mpg.de/">Machine Learning Summer School in Tubigen was a great experience. I highly recommend anyone in machine learning to attend a <a title="Machine Learning Summer Schools" href="http://mlss.cc/">summer school if possible(there's at least one every year, 3 planned for 2014) and other graduate students to see if their field runs a similar program.

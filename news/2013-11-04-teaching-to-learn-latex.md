@@ -31,7 +31,10 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
-One thing I really wish I had been exposed to in undergrad that I was unfortunately slow to adopt in graduate school is $latex LaTeX$.  In my second year, I forced myself to start learning it, during a take home midterm.  I continued learning with some other homeworks and my finals that semester.  During my qualifying exam, I may have learned almost as must $latex LaTeX$ as signal processing.  I've even started using beamer for presentations and using Ti<em>k</em>Z for drawings.
+
+# Teaching to Learn: LaTeX
+
+One thing I really wish I had been exposed to in undergrad that I was unfortunately slow to adopt in graduate school is $latex LaTeX$.  In my second year, I forced myself to start learning it, during a take home midterm.  I continued learning with some other homeworks and my finals that semester.  During my qualifying exam, I may have learned almost as much $latex LaTeX$ as signal processing.  I've even started using beamer for presentations and using Ti<em>k</em>Z for drawings.
 
 I was really slow and stubborn to adopt $latex LaTeX$ though.  I'm a very visual person and getting used to writing without seeing the final formatting was hard.  I still struggle to read and edit my writing for content/ grammar issues in the code view, I end up marking up the pdf somewhere else and then going back to the code.   However, despite this challenge, I 've become a huge proponent of its use, it does so much more than other word processing tools and it's not really that hard to learn.
 

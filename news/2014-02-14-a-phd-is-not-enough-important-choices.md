@@ -28,6 +28,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# A PhD is Not Enough: important choices 
+
 _As in a previous [post](http://sarahmbrown.org/2014/02/10/a-phd-is-not-enough1/) this is a part of a series on the book [A PhD is Not Enough- A guide to scientific survival.](http://www.amazon.com/PhD-Is-Not-Enough-Survival/dp/0465022227) This is the second post._
 
 In chapter three, he focuses on two important early career choices: thesis adviser and post-doctoral position.  For selecting an adviser he focuses on what the advantages are of choosing a more senior person and what to be cautious of with a young, early career, advisor. He weighs what an adviser's prominence can and cannot do for you.  It can give you easy access to connections, but it cannot be absorbed.

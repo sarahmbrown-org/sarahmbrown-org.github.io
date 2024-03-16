@@ -30,6 +30,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# A PhD is not enough!
+
 I've been told numerous times that I should read [the book A PhD is not Enough!](http://www.amazon.com/PhD-Is-Not-Enough-Survival/dp/0465022227) and I recently finally decided to buy it and start reading. I posted on instagram that I was and was asked for cliff notes. My next blog series will be that.
 
 The first two chapters are very introductory; he introduces the motivation for the book and gives a series of anecdotes of other scientists careers.  He focuses on bad decisions they each made, including his own.  He positions the book to focus on how to make sure you're a good candidate for full time positions as a researcher in science. He acknowledges changes in the world since he was on the job market and since the first edition of the book and states why the core of his advice is timeless.  He notes that some of the details will change rapidly, but the same principles will apply.  The central themes will be: 1) know thyself, and 2) understand and respect the needs of your audience.
