@@ -25,4 +25,6 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# AAAI15 Paper Content Posted!
+
 I'll be attending AAAI-15 in Austin, TX next week to present my paper "<a title="A Sparse Combined Regression-Classification Formulation for Learning a Physiological Alternative to Clinical Post-Traumatic Stress Disorder Scores" href="http://www.sarahmbrown.org/portfolio/scrc-for-pysiological-ptsd-diagnosis/">A Sparse Combined Regression-Classification Formulation for Learning a Physiological Alternative to Clinical Post-Traumatic Stress Disorder Scores."  The paper & related content are up and available on a project page now.

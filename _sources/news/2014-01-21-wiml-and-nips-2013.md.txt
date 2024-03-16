@@ -32,6 +32,7 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+#  WiML and NIPS 2013
 Last month I attended the Women In Machine Learning (WiML) workshop and the Neural Information Processing Symposium (NIPS) for the second time. For a second year, the conference was located in South Lake Tahoe, NV.
 
 The WiML workshop was started as a co-located workshop to the Grace Hopper Conference and moved to be co-located with NIPS, a premiere machine learning conference, after a couple years.  The workshop was started by a group of women in the field after noticing how few women were at NIPS each year.   In the workshop, women researchers and students give presentations, we have a poster session, and close the day out with a panel on career paths.   At breakfast and lunch we get to network wither each other and senior women in the field.  The organizers also connect attendees into mentoring groups based on career stage and research interests.   This year was nice that I got to reconnect with a lot of the women I met last year.

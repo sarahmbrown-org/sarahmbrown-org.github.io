@@ -19,6 +19,7 @@ See the [news page](news.md) for a more complete list.
 ```{toctree}
 :maxdepth: 2
 :hidden:
+
 research
 publications
 teaching

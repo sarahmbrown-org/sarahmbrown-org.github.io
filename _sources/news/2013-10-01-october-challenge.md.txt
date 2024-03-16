@@ -22,6 +22,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# Fall Challenge
+
 I know multi-tasking doesn't really exist.  Realistically, you can only focus on one task at a time.  However, I do believe that tasks can be constructed so that they contribute to multiple objectives.  You can learn more than one thing out of a single task.
 
 The best way to get better at something is to do it more often.  Writing is hard for me, in fact effective communication in general is.  Ideas float around in my head completely clear, but sharing them?  A very different story.  I know it's hard for me though, so I prepare, a lot, in advance.  As an engineering undergraduate, I got away without writing much.  In general scientists and engineers aren't great at communicating, but I think that's a problem.  At the very least we need to communicate among ourselves to advance our fields.  Especially in research, writing is an essential skill.

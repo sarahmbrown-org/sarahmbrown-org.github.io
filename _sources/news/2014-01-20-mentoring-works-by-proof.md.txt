@@ -27,6 +27,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# Mentoring Works: By Proof
+
 I first learned what engineering was from a mentor I had in my senior year of high school.    I had completed AP calculus already and wasn't interested in AP Statistics.  Instead I took this 'course' of sorts that had been trialed a year before me when three students were in the same situation as me asked for a way to take more math that the district had planned for, without having to adapt their schedules to fit a college course.   It was a course in mathematical proofs and basics of set theory.
 
 For the fall semester of my senior year, each morning I reported to the library instead of a "real" class.  I had a book to follow and a notebook to scribble in.  Once a week, an engineer from a company in town came and met with me for an hour.  This was actually an amazing mentoring experience.  He wasn't really my teacher, I worked through most of the material on my own.  He was there to meet with me weekly to check on my progress some, but mostly to give me someone to discuss the material with.

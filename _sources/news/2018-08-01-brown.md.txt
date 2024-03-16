@@ -7,5 +7,7 @@ categories:
   - news
 ---
 
+# Moved to Brown University 
+
 I've moved to the [Brown Data Science Initiative](https://www.brown.edu/initiatives/data-science/) to continue my postdoctoral
 training.

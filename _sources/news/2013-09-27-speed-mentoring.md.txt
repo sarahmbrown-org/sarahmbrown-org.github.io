@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Speed Mentoring
-date: 2013-09-27 0
+date: 2013-09-27
 type: post
 published: true
 status: publish
@@ -22,4 +22,6 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# Speed Mentoring 
+
 I served as a speed mentor for the Black Engineering Student Society at Northeastern tonight-- a component of their retention program where underclassmen got to have four, 5 minute speed mentoring sessions with upperclassmen & alumni.  Giving back always makes me so much more motivated to do my own work!

@@ -25,6 +25,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# Research Engagement
+
 I started academic research in the spring semester of my freshman year of college, now I'm a PhD Candidate, so needless to say research has been a major part of my adult life.  I intend to have a career in research, so it's important to me.  One thing I noticed as I progressed from undergraduate research to graduate school though was that a lot of students 'do' research, but don't own it.  They carry out assigned tasks and produce results, but the type of enthusiasm, ownership, and creativity that even young professionals demonstrate in commercial environments isn't present in a lot of research.  Another thing I found was that a lot of people reach the end of undergrad and THEN realize that research experience would help them make a more informed decision about and a stronger applicant to graduate school.
 
 A little over a year ago, I decided to act.  I pulled together some other engineering students and we formed the Student Research Engagement Committee.  I'm currently serving as chair and we work with the Deans office and the Assistant Director for Research Development in the College of Engineering to put on events that address these challenges.

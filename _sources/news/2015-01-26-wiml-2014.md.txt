@@ -27,6 +27,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# Organizing WiML 2014
+
 Since April, I've served as a co-organizer with [Marzyeh Ghassmi](http://mghassem.mit.edu/) [Jessica Thompson](http://jessthompson.ca/), and [Allison Chaney](http://www.cs.princeton.edu/~achaney/) for the 9th [Annual Women in Machine Learning  Workshop (WiML)](http://wimlworkshop.org) co-located with the [Neural Information Processing Systems (NIPS)](http://nips.cc) conference, in in Montréal, QC, Canada in December. This year we had record attendance and sponsorship.  As Finance and Sponsorship Chair, I'm especially proud of our sponsorship accomplishments: we had 3 Gold Sponsors, 2 Silver and 6 Bronze and 2 Supporter Sponsors, which in total, doubled sponsorship over the previous year- a new WiML record.
 
 As an organizing team, we met for an hour biweekly by Skype over the months leading up to the workshop. We worked fairly independently, but got great support from the WiML board as well. Organizing WiML is like running a small conference so there are a lot of things to keep track of, but past organizers have done a great job, with the support of the board at archiving everything.  For a lot of tasks we were able to copy & edit what was done the previous year, so even though the organizing team changes completely every year it's not that hard. Organizing WiML was was of the best event-planning experiences I've had.  We really didn't hit any major bumps or have painfully long meetings to avoid that.  In the days leading up to the conference, one of the last minute "problems" we has was that we had more people offer to volunteer than we had imagined jobs for.  That really speaks to the community of WiML, it's a very supportive group of women.

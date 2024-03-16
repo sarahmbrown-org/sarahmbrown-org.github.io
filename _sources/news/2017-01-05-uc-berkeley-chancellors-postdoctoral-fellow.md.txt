@@ -26,4 +26,7 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+
+# UC Berkeley Chancellor's Postdoctoral Fellow
+
 I've completed my PhD and joined UC Berkeley as a [Chancellor's Postdoctoral Fellow](http://diversity.berkeley.edu/programs-services/postdoctoral/about-us/current-fellows).

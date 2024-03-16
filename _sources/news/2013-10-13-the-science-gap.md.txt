@@ -23,6 +23,8 @@ author:
   first_name: Sarah
   last_name: Brown
 ---
+# The Science Gap
+
 I've been involved in a lot of STEM outreach since I began college.  I truly LOVE what I do and sharing that with others is just natural to me.  What I found alarming though was the reasons there's so much push for STEM outreach.  The bleak outlook for minorities and women going into STEM fields is the predominant one.  In that effort we often cite the digital divide as the problem, a lack of basic computer literacy within our communities.  It's bigger than that though.
 
 Most of society is far, far removed from what researchers do.  Some even think it's wasteful, few understand the critical role advanced research plays in developing technology.  Some times we have to solve more basic problems, discover materials, or explain observed phenomena first, before we can build products that safely and reliably accomplish the previously impossible.

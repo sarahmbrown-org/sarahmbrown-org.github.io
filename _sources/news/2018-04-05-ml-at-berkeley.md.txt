@@ -7,6 +7,7 @@ categories:
  - news
 ---
 
+# ML at Berkeley
 I gave at talk to Berkeley undergraduates at the [Machine Learning at Berkeley (ML@B)](https://ml.berkeley.edu/) general meeting. I talked about work in progress and we had a great discussion interpreting the results. They asked great questions about both technical details of the work and the broader implications and positioning of the work.  
 
 The abstract I provided for the talk is here:
