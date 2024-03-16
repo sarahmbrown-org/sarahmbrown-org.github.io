@@ -31,7 +31,7 @@ extensions = [
     "myst_nb",
     "ablog",
     'sphinx.ext.intersphinx',
-    "sphinx_panels",
+    "sphinx_design",
     "sphinxcontrib.bibtex",
     "sphinxext.opengraph",
 ]
