@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html >
+<html lang="en" >
 
   <head>
     <meta charset="utf-8" />
@@ -42,8 +42,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
@@ -52,14 +51,17 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'research';</script>
     <link rel="index" title="Index" href="../genindex/" />
     <link rel="search" title="Search" href="../search/" />
     <link rel="next" title="Publications" href="../publications/" />
     <link rel="prev" title="Sarah M Brown" href="../" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="None"/> 
+  <meta name="docsearch:language" content="en"/> 
 <link
   rel="alternate"
   type="application/atom+xml"
@@ -543,18 +545,19 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                    <div class="tex2jax_ignore mathjax_ignore section" id="research">
-<h1>Research<a class="headerlink" href="#research" title="Permalink to this headline">#</a></h1>
+<h1>Research<a class="headerlink" href="#research" title="Permalink to this heading">#</a></h1>
 <p>I am making AI more fair by enabling it to use subjective human expertise. I do this by modeling bias in the world, understanding the behavior of fair machine learning interventions, and building tools that directly allow domain experts to interact with data and learning systems. Through collaborations with social scientists who study societal bias, I am able to develop better models that can aid in detection of biases in datasets and prevent machines from replicating those biases. To understand where different types of interventions succeed and fail, I analyzed the behavior of fair machine learning algorithms. Finally, I collaboratively build tools that enable incorporating expertise and subjective assessments of data in the modeling process.  Underlying all of these is a core technical approach of probabilistic model-based machine learning. I trained in developing probabilistic models for complex systems with multiple sources of uncertainty by collaborating with affective neuroscientists improving understanding of the spatio-temporal patterns of brain activity that create emotional experiences.</p>
 <p>More active projects are on the <a class="reference external" href="https://ml4sts.com/projects/">lab website</a></p>
-<div class="sphinx-bs docutils">
-<div class="row docutils">
-<div class="d-flex col-6 docutils">
-<div class="card w-100 mb-4 docutils">
-<div class="card-header docutils">
-<p class="card-text">Detecting Simpson’s Paradox</p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">Simpson’s paradox is the phenomenon that a trend of an association
+<div class="section" id="past-projects">
+<h2>Past Projects<a class="headerlink" href="#past-projects" title="Permalink to this heading">#</a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Detecting Simpson’s Paradox</div>
+<p class="sd-card-text">Simpson’s paradox is the phenomenon that a trend of an association
 in the whole population reverses within the subpopulations
 defined by a categorical variable. Detecting Simpson’s
 paradox indicates surprising and interesting patterns of
@@ -566,34 +569,32 @@ pair of continuous variables</p>
 </div>
 </div>
 </div>
-<div class="d-flex col-6 docutils">
-<div class="card w-100 mb-4 docutils">
-<div class="card-header docutils">
-<p class="card-text">Racial Profiling and Marijuana Reform”</p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">In collaboration with economist Terry-Ann Craigie, I am studying the impact of marijuana reform on racial profiling as measured through traffic stops.</p>
-</div>
-</div>
-</div>
-<div class="d-flex col-6 docutils">
-<div class="card w-100 mb-4 docutils">
-<div class="card-header docutils">
-<p class="card-text">A Sparse Combined Regression-Classification Formulation for Learning a Physiological</p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">Current diagnostic methods for mental pathologies, including Post-Traumatic Stress Disorder (PTSD), involve a clinician-coded interview, which can be subjective. Heart rate and skin conductance, as well as other peripheral physiology measures, have previously shown utility in predicting binary diagnostic decisions. The binary decision problem is easier, but misses important information on the severity of the patient’s condition. This work utilizes a novel experimental set-up that exploits virtual reality videos and peripheral physiology for PTSD diagnosis. In pursuit of an automated physiology-based objective diagnostic method, we propose a learning formulation that integrates the description of the experimental data and expert knowledge on desirable properties of a physiological diagnostic score. From a list of desired criteria, we derive a new cost function that combines regression and classification while learning the salient features for predicting physiological score. The physiological score produced by Sparse Combined Regression-Classification (SCRC) is assessed with respect to three sets of criteria chosen to reflect design goals for an objective, physiological PTSD score: parsimony and context of selected features, diagnostic score validity, and learning generalizability. For these criteria, we demonstrate that Sparse Combined Regression-Classification performs better than more generic learning approaches.</p>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Racial Profiling and Marijuana Reform”</div>
+<p class="sd-card-text">In collaboration with economist Terry-Ann Craigie, I am studied the impact of marijuana reform on racial profiling as measured through traffic stops.</p>
 </div>
 </div>
 </div>
-<div class="d-flex col-6 docutils">
-<div class="card w-100 mb-4 docutils">
-<div class="card-header docutils">
-<p class="card-text">Machine Learning Analysis of Peripheral Physiology for Emotion Detection</p>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+A Sparse Combined Regression-Classification Formulation for Learning a Physiological</div>
+<p class="sd-card-text">Current diagnostic methods for mental pathologies, including Post-Traumatic Stress Disorder (PTSD), involve a clinician-coded interview, which can be subjective. Heart rate and skin conductance, as well as other peripheral physiology measures, have previously shown utility in predicting binary diagnostic decisions. The binary decision problem is easier, but misses important information on the severity of the patient’s condition. This work utilizes a novel experimental set-up that exploits virtual reality videos and peripheral physiology for PTSD diagnosis. In pursuit of an automated physiology-based objective diagnostic method, we propose a learning formulation that integrates the description of the experimental data and expert knowledge on desirable properties of a physiological diagnostic score. From a list of desired criteria, we derive a new cost function that combines regression and classification while learning the salient features for predicting physiological score. The physiological score produced by Sparse Combined Regression-Classification (SCRC) is assessed with respect to three sets of criteria chosen to reflect design goals for an objective, physiological PTSD score: parsimony and context of selected features, diagnostic score validity, and learning generalizability. For these criteria, we demonstrate that Sparse Combined Regression-Classification performs better than more generic learning approaches.</p>
 </div>
-<div class="card-body docutils">
-<p class="card-text">Peripheral physiological signals have shown promise as a measure of a person’s emotional state. There are many applications where a more quantitative evaluation of an individual’s mental state would be beneficial. For example, in PTSD or depression diagnosis, a quantitative measure to assist and compliment the qualitative assessments conducted by clinicians could reduce the time involved in treatment planning. A better understanding of the underlying mechanism is necessary for building systems that use these signals to assist in critical decision making.</p>
-<p class="card-text">Previous work in emotion research has relied upon averaging in time and then applying standard significance tests and simple classifiers to analyze psychophysiological data. In this work, we extend analysis beyond traditional hypothesis testing and simple classifiers to better understand previous results and design an appropriate computational model. Under the hypothesis that modeling dynamics is important, we design and apply an Input-Output Hidden Markov Model (IOHMM). Through exploration of the learned IOHMM model parameters, we demonstrate the promise that more descriptive, generative machine learning models provide over the more task-specific discriminative models and traditional statistical hypothesis testing. Incorporating time provides an improvement over simple static classifiers in single trial (without averaging in time) prediction accuracy, but does not provide significant improvement over the time averaged results found in literature. To address this, we employ exploratory data analysis methods and examine properties of the algorithms applied to better understand the results and consider improvements. Mutual information computation and clustering provide insight as to the challenges in modeling this data. By applying concepts from learning theory, we show that these seemingly weaker results are actually consistent with previous results. We conclude with insights as to how an alternative approach could elicit more positive results out of this dataset and key theoretical contributions to machine learning that are of value for applying these techniques in scientific research.</p>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Machine Learning Analysis of Peripheral Physiology for Emotion Detection</div>
+<p class="sd-card-text">Peripheral physiological signals have shown promise as a measure of a person’s emotional state. There are many applications where a more quantitative evaluation of an individual’s mental state would be beneficial. For example, in PTSD or depression diagnosis, a quantitative measure to assist and compliment the qualitative assessments conducted by clinicians could reduce the time involved in treatment planning. A better understanding of the underlying mechanism is necessary for building systems that use these signals to assist in critical decision making.</p>
+<p class="sd-card-text">Previous work in emotion research has relied upon averaging in time and then applying standard significance tests and simple classifiers to analyze psychophysiological data. In this work, we extend analysis beyond traditional hypothesis testing and simple classifiers to better understand previous results and design an appropriate computational model. Under the hypothesis that modeling dynamics is important, we design and apply an Input-Output Hidden Markov Model (IOHMM). Through exploration of the learned IOHMM model parameters, we demonstrate the promise that more descriptive, generative machine learning models provide over the more task-specific discriminative models and traditional statistical hypothesis testing. Incorporating time provides an improvement over simple static classifiers in single trial (without averaging in time) prediction accuracy, but does not provide significant improvement over the time averaged results found in literature. To address this, we employ exploratory data analysis methods and examine properties of the algorithms applied to better understand the results and consider improvements. Mutual information computation and clustering provide insight as to the challenges in modeling this data. By applying concepts from learning theory, we show that these seemingly weaker results are actually consistent with previous results. We conclude with insights as to how an alternative approach could elicit more positive results out of this dataset and key theoretical contributions to machine learning that are of value for applying these techniques in scientific research.</p>
+</div>
 </div>
 </div>
 </div>
@@ -661,6 +662,16 @@ pair of continuous variables</p>
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
   <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#past-projects">Past Projects</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
   <div class="tocsection sourcelink">
     <a href="../_sources/research.md.txt">
       <i class="fa-solid fa-file-lines"></i> Show Source
@@ -700,7 +711,7 @@ pair of continuous variables</p>
       
         <div class="footer-item">
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.5.0.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.3.0.
     <br/>
   </p>
 </div>

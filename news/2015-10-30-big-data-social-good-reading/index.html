@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html >
+<html lang="en" >
 
   <head>
     <meta charset="utf-8" />
@@ -42,8 +42,7 @@
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
@@ -52,14 +51,17 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'news/2015-10-30-big-data-social-good-reading';</script>
     <link rel="index" title="Index" href="../../genindex/" />
     <link rel="search" title="Search" href="../../search/" />
     <link rel="next" title="Google Forms for Better Live Discussion" href="../2015-11-02-google-forms-better-live-discussion/" />
     <link rel="prev" title="Why &amp; How I Chose to Get a PhD" href="../2015-10-08-choosing-a-phd/" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="None"/> 
+  <meta name="docsearch:language" content="en"/> 
 <link
   rel="alternate"
   type="application/atom+xml"
@@ -562,7 +564,7 @@ document.write(`
   </li>
     
   <li>
-    <a href="../2013/">2013 (14)</a>
+    <a href="../2013/">2013 (13)</a>
   </li>
    
 </ul>
@@ -622,23 +624,23 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                    <div class="tex2jax_ignore mathjax_ignore section" id="a-gentle-technical-reading-list-for-big-data-for-social-good">
-<h1>A Gentle Technical Reading List for Big Data for Social Good<a class="headerlink" href="#a-gentle-technical-reading-list-for-big-data-for-social-good" title="Permalink to this headline">#</a></h1>
+<h1>A Gentle Technical Reading List for Big Data for Social Good<a class="headerlink" href="#a-gentle-technical-reading-list-for-big-data-for-social-good" title="Permalink to this heading">#</a></h1>
 <p>As a machine learning researcher, <strong>Big Data for Social Good</strong> is my take on this year’s NSBE conference theme of <strong>Engineering a Cultural Change</strong>.  Today, I’m presenting a workshop at the NSBE Region 1 Fall Regional Conference on that topic, but there’s so much to share, this is mostly intended as additional information for the attendees, but I think this could be useful more broadly.  My research, isn’t exactly on Big Data for Social Good, but I do applied machine learning research and I think there’s some important commonalities.  I begin from a real problem and design smart algorithms to help domain experts make sense of their data- this is exactly what a Data Scientist working at or with a nonprofit would do.  In my graduate work my collaborators have been psychologists who want to ask categorically different questions- questions so novel that traditional experimental designs and analysis techniques don’t get the job done. Since I’ve spent so much of my time outside of the classroom and lab dedicated to social impact through NSBE so Big Data for Social Good is a personal interest and possible future direction for me.</p>
 <p>Machine learning and big data appear all over lately but there are a number of key resources that I think anyone interested in data driven methods for decision making, even if outside of the technical realm should consider and support making sense of. These are, however, challenging problems . There is additional research that must be done toward this end. Here I provide a list of some of my favorite (mostly) accessible machine learning papers that I think are good reading material for someone broadly interested in machine learning for social good but is not an expert in machine learning yet.  These will help you begin to get some perspective on the relevant technical matters and research questions without being bogged down by details.</p>
 <div class="section" id="model-based-machine-learning">
-<h2><a class="reference external" href="http://research.microsoft.com/en-us/um/people/cmbishop/downloads/Bishop-MBML-2012.pdf">Model Based Machine Learning</a><a class="headerlink" href="#model-based-machine-learning" title="Permalink to this headline">#</a></h2>
+<h2><a class="reference external" href="http://research.microsoft.com/en-us/um/people/cmbishop/downloads/Bishop-MBML-2012.pdf">Model Based Machine Learning</a><a class="headerlink" href="#model-based-machine-learning" title="Permalink to this heading">#</a></h2>
 <p>In this paper he develops the storyline of what model based- as opposed to feature engineering based- machine learning looks like. Along the way, he describes the basics of probabilistic graphical models- a language for expressing statistical models - and concludes with a new type of programming language designed specifically for machine learning. This paper is helpful not only because that easy to read tutorial provides knowledge that will make reading many other papers easier, but because models are a widely understood idea- many other researchers use models of some form. For me, that makes model based machine learning especially important when working with data from any application domain, especially one where decision makers may not be as strong in math and computer science. There’s also a <a class="reference external" href="http://www.mbmlbook.com/">forthcoming book</a> on the topic.</p>
 </div>
 <div class="section" id="big-data-machine-learning-and-the-social-sciences-fairness-accountability-and-transparency">
-<h2><a class="reference external" href="https://medium.com/&#64;hannawallach/big-data-machine-learning-and-the-social-sciences-927a8e20460d#.svhzu617z">Big Data, Machine Learning, and the Social Sciences: Fairness, Accountability, and Transparency</a><a class="headerlink" href="#big-data-machine-learning-and-the-social-sciences-fairness-accountability-and-transparency" title="Permalink to this headline">#</a></h2>
+<h2><a class="reference external" href="https://medium.com/&#64;hannawallach/big-data-machine-learning-and-the-social-sciences-927a8e20460d#.svhzu617z">Big Data, Machine Learning, and the Social Sciences: Fairness, Accountability, and Transparency</a><a class="headerlink" href="#big-data-machine-learning-and-the-social-sciences-fairness-accountability-and-transparency" title="Permalink to this heading">#</a></h2>
 <p>There have been a series of workshops lately on fairness, accountability, transparency in ML. This medium post by Hanna Wallach -she’s also a founder of <a class="reference external" href="http://wimlworkshop.org/">WiML</a> and pretty awesome in general- summarizes a talk she gave at the first FATML workshop.  She focuses on data, questions, models, and findings to highlight the state of the field and some of the key challenges in computational social science with respect to fairness accountability and transparency.  She begins with a few different definitions of big data- what makes the current trend in big data different from large and a pretty clear overview of some of the challenges facing machine learning if applied to social science problems.</p>
 </div>
 <div class="section" id="machine-learning-trends-perspectives-and-prospects">
-<h2><a class="reference external" href="http://www.cs.cmu.edu/~tom/pubs/Science-ML-2015.pdf">Machine learning: Trends, perspectives, and prospects</a><a class="headerlink" href="#machine-learning-trends-perspectives-and-prospects" title="Permalink to this headline">#</a></h2>
+<h2><a class="reference external" href="http://www.cs.cmu.edu/~tom/pubs/Science-ML-2015.pdf">Machine learning: Trends, perspectives, and prospects</a><a class="headerlink" href="#machine-learning-trends-perspectives-and-prospects" title="Permalink to this heading">#</a></h2>
 <p>This clearly written survey name-drops just about every sub area in machine learning and paints a pretty clear picture about how the areas relate or compare. This article will serve as a great launching point if you think you might be interested in machine learning but want to This concludes by highlighting some of the core challenges facing machine learning going forward.</p>
 </div>
 <div class="section" id="machine-learning-that-matters-http-icml-cc-2012-papers-298-pdf-target-blank">
-<h2>[Machine Learning that Matters](http://icml.cc/2012/papers/298.pdf” target=”_blank)<a class="headerlink" href="#machine-learning-that-matters-http-icml-cc-2012-papers-298-pdf-target-blank" title="Permalink to this headline">#</a></h2>
+<h2>[Machine Learning that Matters](http://icml.cc/2012/papers/298.pdf” target=”_blank)<a class="headerlink" href="#machine-learning-that-matters-http-icml-cc-2012-papers-298-pdf-target-blank" title="Permalink to this heading">#</a></h2>
 <p>This paper reads more as a position paper, it’s again, not technical but this essentially argues that too many machine learning papers and journals focus on the incremental discovery of machine learning techniques without actually attending to the data on which the methods are applied. It highlights a systematic problem in machine learning: reusing the same data sets repeatedly for tasks that may or may not have actually been of interest to those who generated the dataset. Arbitrary measures of performance declare the author’s proposed new method better than another, but don’t declare clearly why.  There was also a follow up special issue of <a class="reference external" href="http://link.springer.com/article/10.1007%2Fs10994-013-5425-9">Machine Learning Journal on Machine Learning for Science and Society</a>.</p>
 </div>
 </div>
@@ -777,7 +779,7 @@ document.write(`
       
         <div class="footer-item">
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.5.0.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.3.0.
     <br/>
   </p>
 </div>
