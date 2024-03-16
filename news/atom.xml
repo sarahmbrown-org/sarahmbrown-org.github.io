@@ -2,78 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://sarahmbrown.org</id>
   <title> Sarah M Brown</title>
-  <updated>2024-03-16T17:16:32.163826+00:00</updated>
+  <updated>2024-03-16T17:19:36.069787+00:00</updated>
   <link href="https://sarahmbrown.org"/>
   <link href="https://sarahmbrown.org/news/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
   <entry>
-    <id>https://sarahmbrown.org/news/2021-07-24-teachml/</id>
-    <title>New Paper accepted to Teachml 21</title>
-    <updated>2021-07-24T00:00:00+00:00</updated>
+    <id>https://sarahmbrown.org/news/2023-07-31-tdssp23/</id>
+    <title>I’m teaching CS for Talent Development Summer Success Program</title>
+    <updated>2023-07-31T00:00:00+00:00</updated>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;I have a paper accepted to ECMLPKDD Teach ML workshop on how I designed and taught CSC/DSP 310 last fall.&lt;/p&gt;
+&lt;p&gt;I am co-teaching Active Learning in Computer Science and leading CS Thinking and learning for the Talent Development Summer Success Program.&lt;/p&gt;
 &lt;/div&gt;
 </content>
-    <link href="https://sarahmbrown.org/news/2021-07-24-teachml/"/>
-    <summary>I have a paper accepted to ECMLPKDD Teach ML workshop on how I designed and taught CSC/DSP 310 last fall.</summary>
-    <published>2021-07-24T00:00:00+00:00</published>
+    <link href="https://sarahmbrown.org/news/2023-07-31-tdssp23/"/>
+    <summary>I am co-teaching Active Learning in Computer Science and leading CS Thinking and learning for the Talent Development Summer Success Program.</summary>
+    <published>2023-07-31T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://sarahmbrown.org/news/2021-08-06-ibm-award/</id>
-    <title>New Funding from IBM</title>
-    <updated>2021-08-06T00:00:00+00:00</updated>
+    <id>https://sarahmbrown.org/news/2023-09-10-ugfa23/</id>
+    <title>Welcome to new Undergraduate Researchers Kyle and Brendan</title>
+    <updated>2023-09-10T00:00:00+00:00</updated>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;I Received a 2021 IBM Global University Program Academic Award to develop
-an Information Theoretic Framework for Evaluating Fairness in AI Applications.&lt;/p&gt;
+&lt;p&gt;Kyle will be working on applying ML to Antimicrobial Peptide (AMP) design.&lt;/p&gt;
+&lt;p&gt;Brendan will be working on softare improvements to internal tools used in the lab.&lt;/p&gt;
 &lt;/div&gt;
 </content>
-    <link href="https://sarahmbrown.org/news/2021-08-06-ibm-award/"/>
-    <summary>I Received a 2021 IBM Global University Program Academic Award to develop
-an Information Theoretic Framework for Evaluating Fairness in AI Applications.</summary>
-    <published>2021-08-06T00:00:00+00:00</published>
+    <link href="https://sarahmbrown.org/news/2023-09-10-ugfa23/"/>
+    <summary>Kyle will be working on applying ML to Antimicrobial Peptide (AMP) design.Brendan will be working on softare improvements to internal tools used in the lab.</summary>
+    <published>2023-09-10T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://sarahmbrown.org/news/2021-08-16-eaamo/</id>
-    <title>New Paper Accepted to EAAMO'21</title>
-    <updated>2021-08-16T00:00:00+00:00</updated>
+    <id>https://sarahmbrown.org/news/2024-01-18-aisummit/</id>
+    <title>I presented on What is AI at the Academic Summit for URI Faculty</title>
+    <updated>2024-01-18T00:00:00+00:00</updated>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;A paper with the Boykin lab at Brown University was accepted to the  inaugural
-ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization.
-It’s an extension of a previous workshop paper, “Opportunities for a More Interdisciplinary Approach to Perceptions of Fairness in Machine Learning”&lt;/p&gt;
 &lt;/div&gt;
 </content>
-    <link href="https://sarahmbrown.org/news/2021-08-16-eaamo/"/>
-    <summary>A paper with the Boykin lab at Brown University was accepted to the  inaugural
-ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization.
-It’s an extension of a previous workshop paper, “Opportunities for a More Interdisciplinary Approach to Perceptions of Fairness in Machine Learning”</summary>
-    <published>2021-08-16T00:00:00+00:00</published>
+    <link href="https://sarahmbrown.org/news/2024-01-18-aisummit/"/>
+    <published>2024-01-18T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://sarahmbrown.org/news/2021-08-23-td-stem-academy/</id>
-    <title>TD STEM Academy Workshop</title>
-    <updated>2021-08-23T00:00:00+00:00</updated>
+    <id>https://sarahmbrown.org/news/2024-01-23-ugsp24/</id>
+    <title>Welcome to new undergraduates Lani, Noah,  Trevor, and Rohan</title>
+    <updated>2024-01-23T00:00:00+00:00</updated>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;Professor Brown and incoming Graduate student Emmely Trejo Alvarez are hosting
-a workshop for incoming students this week to learn about AI biases by replicating
-the COMPAS analysis.  Resources are available &lt;a class="reference external" href="https://ml4sts.com/outreach-compas/"&gt;online&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lani will be working on understanding how problem formulation is/not described in current
+ML research.&lt;/p&gt;
+&lt;p&gt;Trevor and Noah will be joining Brendan to work on internal tooling for the lab.&lt;/p&gt;
 &lt;/div&gt;
 </content>
-    <link href="https://sarahmbrown.org/news/2021-08-23-td-stem-academy/"/>
-    <summary>Professor Brown and incoming Graduate student Emmely Trejo Alvarez are hosting
-a workshop for incoming students this week to learn about AI biases by replicating
-the COMPAS analysis.  Resources are available online</summary>
-    <published>2021-08-23T00:00:00+00:00</published>
+    <link href="https://sarahmbrown.org/news/2024-01-23-ugsp24/"/>
+    <summary>Lani will be working on understanding how problem formulation is/not described in current
+ML research.Trevor and Noah will be joining Brendan to work on internal tooling for the lab.</summary>
+    <published>2024-01-23T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://sarahmbrown.org/news/2022-03-11-wids/</id>
-    <title>WiDS Cambridge Women of Color in Data Science Panel</title>
-    <updated>2022-03-11T00:00:00+00:00</updated>
+    <id>https://sarahmbrown.org/news/2024-03-04-mc-wids/</id>
+    <title>I gave a keynote at Middlebury College Women in Data Science conference</title>
+    <updated>2024-03-04T00:00:00+00:00</updated>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;I spoke on a panel at the 2022 &lt;a class="reference external" href="https://www.widscambridge.org/"&gt;WiDS Cambridge&lt;/a&gt; on &lt;a class="reference external" href="https://www.youtube.com/watch?v=Urn8noohoiM&amp;amp;list=PLYx2nCJDi_QEyu7-aN3YheHw5u2Pm98rb&amp;amp;index=5"&gt;Women of Color in Data Science&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;title&lt;/strong&gt;  Data Science Skills in Unexpected Places&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;abstract&lt;/strong&gt; Data science is a highly interdisciplinary pursuit, combining computer science and statistics with domain expertise to make sense of data. This means as data scientists we must work closely with domain experts or develop enough domain expertise of our own for each project.  In this talk, I will share the story behind a few data science projects I have done: how high school social studies helped me develop a learning PTSD diagnosis, undergraduate advanced writing helps me measure understanding of fairness in AI, and how student leadership experiences help me design tools for data scientists to build better models.&lt;/p&gt;
 &lt;/div&gt;
 </content>
-    <link href="https://sarahmbrown.org/news/2022-03-11-wids/"/>
-    <summary>I spoke on a panel at the 2022 WiDS Cambridge on Women of Color in Data Science</summary>
-    <published>2022-03-11T00:00:00+00:00</published>
+    <link href="https://sarahmbrown.org/news/2024-03-04-mc-wids/"/>
+    <summary>title  Data Science Skills in Unexpected Placesabstract Data science is a highly interdisciplinary pursuit, combining computer science and statistics with domain expertise to make sense of data. This means as data scientists we must work closely with domain experts or develop enough domain expertise of our own for each project.  In this talk, I will share the story behind a few data science projects I have done: how high school social studies helped me develop a learning PTSD diagnosis, undergraduate advanced writing helps me measure understanding of fairness in AI, and how student leadership experiences help me design tools for data scientists to build better models.</summary>
+    <published>2024-03-04T00:00:00+00:00</published>
   </entry>
 </feed>

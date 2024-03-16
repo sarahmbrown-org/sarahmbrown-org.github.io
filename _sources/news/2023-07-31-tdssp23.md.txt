@@ -1,0 +1,7 @@
+---
+date: 2023-07-31
+---
+
+# I'm teaching CS for Talent Development Summer Success Program
+
+I am co-teaching Active Learning in Computer Science and leading CS Thinking and learning for the Talent Development Summer Success Program. 
