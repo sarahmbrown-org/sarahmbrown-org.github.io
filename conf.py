@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Sarah M Brown'
-copyright = '2022, Sarah M Brown'
+copyright = '2024, Sarah M Brown'
 author = 'Sarah M Brown'
 
 
@@ -57,8 +57,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "*import_posts*",
 html_theme = 'pydata_sphinx_theme'
 
 html_theme_options = {
+    "header_links_before_dropdown": 8,
   "github_url": "https://github.com/brownsarahm/",
-  "twitter_url": "https://twitter.com/brownsarahm",
   "search_bar_text": "Search this site...",
   "navbar_end": ["search-field.html", "navbar-icon-links"],
   "icon_links": [
@@ -74,11 +74,11 @@ html_theme_options = {
         },
          {
             # Label for this link
-            "name": "Lab GitHub",
+            "name": " GitHub",
             # URL where the link will redirect
-            "url": "https://github.com/ml4sts/",  # required
+            "url": "https://github.com/brownsarahm/",  # required
             # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
-            "icon": "fa fa-terminal",
+            "icon": "fa-brands fa-github",
             # The type of image to be used (see below for details)
             "type": "fontawesome",
         }
