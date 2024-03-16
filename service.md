@@ -4,54 +4,42 @@ Outside of the lab, I am a passionate advocate for underrepresented STEM engagem
 
 
 
-````{panels}
-:card: mb-4
-:body:
-:column: pl-0
-:container:
+::::{grid} 3
+:::{grid-item-card} CS @ URI Talent Development
 
----
-:column: col-6
+URI's [Talent Development Program](https://web.uri.edu/talentdevelopment/) recruits and serves Rhode Island high school graduates with college potential who come from historically disadvantaged backgrounds, a majority of whom are Scholars of color.
 
-ACM Fairness, Accountability, Transparency
+Since 2022, I have lead the Computer Science & Statistics Department's Participation in their Summer Success Program. 
+In this capacity, I plan our component for Computer Science and Data Science majors during the Exploration
+Academy. 
+:::
 
-^^^
-
-I served as the 2021 FAccT Virtual Experience Chair.
-+++
+:::{grid-item-card} ACM Fairness, Accountability, Transparency
 
 
----
-:column: col-6
+I served as the 2021 FAccT Virtual Experience Chair for the fully virtual conference
+ and 2022-2024 Diversity and Inclusion co-Chair.
+:::
 
-the Carpentries
+:::{grid-item-card} the Carpentries
 
-^^^
+
 
 I became a certified Carpentries instructor in November 2017 and in 2018-2020 I served on the Lesson Infrastructure Committee.  I became a trainer in 2019 and served on an ad hoc committee to develop a leadership structure by invitation starting in 2020.  In 2021 and 2022 I was elected to the Trainers Leadership Committee, where I served as the first chair.
 
-+++
+
+:::
+
+:::{grid-item-card} Women in Machine Learning
 
 
----
-:column: col-6
-
-Women in Machine Learning
-
-^^^
 
 In 2016 I joined the WiML Board, I served as the Treasurer from 2016 until March 2019. In this capacity, I formalized our financial practices, built a finance committee, and established a direct funding for general administrative support.
-I served as a co-organizer for the 2014 [Women in Machine Learning Workshop](http://www.wimlworkshop.org/).  The 9th Annual WiML was again co-located with [NeurIPS](http://nips.cc).  As the Finance and Sponsorship chair, I lead our efforts to secure corporate sponsorship and our sponsor relations.
+I served as a co-organizer for the 2014 [Women in Machine Learning Workshop](http://www.wimlworkshop.org/), the 9th Annual WiML was again co-located with [NeurIPS](http://nips.cc).  As the Finance and Sponsorship chair, I lead our efforts to secure corporate sponsorship and our sponsor relations.
 
-+++
+:::
 
----
-:column: col-4
-
-
-National Society of Black Engineers
-
-^^^
+:::{grid-item-card} National Society of Black Engineers
 
 
 I've been an active member of [NSBE](http://nsbe.org) since fall 2006 serving in numerous leadership positions at both the chapter and national levels.
@@ -72,19 +60,14 @@ As Vice Chair to the Empowering African American Women in STEM Task Force in 201
 
 In 2013-14 I served as the Collegiate Initiative Chair for [NSBE Boston](http://www.nsbeboston.org/), in this capacity I served as a liaison for area collegiate chapters to the local professional chapter.
 
-+++
+:::
 
----
+:::{grid-item-card} Student Research Engangement Committee
 
-:column: col-4
 
-Student Research Engangement Committee
-
-^^^
 
 As founding chair through 2015, I lead a team of students to work with the Engineering Dean's office to increase student engagement in research, specifically undergraduate involvement and graduate ownership, within the college by providing resources and hosting educational workshops.  Some of our most successful initiatives include a workshop for students applying to Research Experience for Undergraduates programs, a college wide undergraduate lab fair, and an experimental design workshop for engineering graduate students.
 
-+++
+:::
 
-
-````
+::::
