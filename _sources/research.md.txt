@@ -7,7 +7,9 @@ More active projects are on the [lab website](https://ml4sts.com/projects/)
 
 ## Past Projects
 
-::::{grid} 3
+::::{grid} 2
+:gutter: 2
+
 :::{grid-item-card}  Detecting Simpson's Paradox
 
 Simpson’s paradox is the phenomenon that a trend of an association

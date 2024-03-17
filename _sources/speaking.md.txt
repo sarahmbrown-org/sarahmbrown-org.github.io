@@ -4,7 +4,9 @@
 In addition to standard research talks, I also speak on leadership topics though my service activities.  
 
 
-::::{grid} 3
+::::{grid} 2
+:gutter: 2
+
 :::{grid-item-card} Data Science for Social Impact
 
 

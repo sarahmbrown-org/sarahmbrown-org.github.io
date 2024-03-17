@@ -4,7 +4,9 @@ Outside of the lab, I am a passionate advocate for underrepresented STEM engagem
 
 
 
-::::{grid} 3
+::::{grid} 2
+:gutter: 2
+
 :::{grid-item-card} CS @ URI Talent Development
 
 URI's [Talent Development Program](https://web.uri.edu/talentdevelopment/) recruits and serves Rhode Island high school graduates with college potential who come from historically disadvantaged backgrounds, a majority of whom are Scholars of color.

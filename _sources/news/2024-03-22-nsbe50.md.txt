@@ -5,3 +5,5 @@ date: 2024-03-22
 # I will present a workshop at NSBE 50
 
 The workshop will be a hands on workshop to build a profile website using github pages. 
+
+The [workshop materials](https://ml4sts-outreach.github.io/profile/) are online. 
