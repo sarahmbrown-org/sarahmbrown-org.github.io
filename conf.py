@@ -81,6 +81,16 @@ html_theme_options = {
             "icon": "fa-brands fa-github",
             # The type of image to be used (see below for details)
             "type": "fontawesome",
+        },
+        {
+            # Label for this link
+            "name": "ORCiD",
+            # URL where the link will redirect
+            "url": "https://orcid.org/0000-0001-5728-0822",  # required
+            # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
+            "icon": "fa-brands fa-orcid",
+            # The type of image to be used (see below for details)
+            "type": "fontawesome",
         }
   ]
 }
